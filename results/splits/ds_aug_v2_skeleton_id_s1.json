@@ -1,0 +1,209 @@
+{
+  "dataset": "ds_aug_v2",
+  "split": "skeleton_id",
+  "seed": 1,
+  "n_train": 563870,
+  "n_test": 140795,
+  "test_fraction_per_class": {
+    "000 - Normal": 0.2,
+    "126 - Path Traversal": 0.2,
+    "1336 - SSTI": 0.2,
+    "248 - Command Injection": 0.2,
+    "66 - SQL Injection": 0.2,
+    "79 - Cross-Site Scripting": 0.2,
+    "88 - OS Command Injection": 0.2,
+    "918 - SSRF": 0.2,
+    "94 - Code Injection": 0.199
+  },
+  "test_rows_with_h_raw_in_train": 0.0041,
+  "test_rows_with_h_payload_in_train": 0.6056,
+  "test_rows_with_skeleton_id_in_train": 0.0,
+  "test_rows_with_family_0.8_in_train": 0.8669,
+  "accuracy": 0.9936,
+  "macro_f1": 0.805,
+  "weighted_f1": 0.9937,
+  "per_class": {
+    "000 - Normal": {
+      "precision": 1.0,
+      "recall": 0.9997,
+      "f1-score": 0.9998,
+      "support": 98605.0
+    },
+    "126 - Path Traversal": {
+      "precision": 0.9986,
+      "recall": 0.9992,
+      "f1-score": 0.9989,
+      "support": 3542.0
+    },
+    "1336 - SSTI": {
+      "precision": 0.2658,
+      "recall": 0.3984,
+      "f1-score": 0.3189,
+      "support": 379.0
+    },
+    "248 - Command Injection": {
+      "precision": 0.7947,
+      "recall": 0.5222,
+      "f1-score": 0.6302,
+      "support": 519.0
+    },
+    "66 - SQL Injection": {
+      "precision": 0.9991,
+      "recall": 0.9993,
+      "f1-score": 0.9992,
+      "support": 29188.0
+    },
+    "79 - Cross-Site Scripting": {
+      "precision": 0.4467,
+      "recall": 0.4273,
+      "f1-score": 0.4368,
+      "support": 578.0
+    },
+    "88 - OS Command Injection": {
+      "precision": 0.9959,
+      "recall": 0.9993,
+      "f1-score": 0.9976,
+      "support": 7216.0
+    },
+    "918 - SSRF": {
+      "precision": 0.9564,
+      "recall": 0.9527,
+      "f1-score": 0.9545,
+      "support": 529.0
+    },
+    "94 - Code Injection": {
+      "precision": 0.8947,
+      "recall": 0.9247,
+      "f1-score": 0.9095,
+      "support": 239.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      98578,
+      3,
+      0,
+      1,
+      7,
+      0,
+      16,
+      0,
+      0
+    ],
+    [
+      0,
+      3539,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      2
+    ],
+    [
+      0,
+      0,
+      151,
+      27,
+      0,
+      201,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      128,
+      271,
+      16,
+      104,
+      0,
+      0,
+      0
+    ],
+    [
+      2,
+      1,
+      0,
+      9,
+      29167,
+      0,
+      9,
+      0,
+      0
+    ],
+    [
+      2,
+      0,
+      289,
+      32,
+      0,
+      247,
+      1,
+      3,
+      4
+    ],
+    [
+      0,
+      1,
+      0,
+      0,
+      2,
+      0,
+      7211,
+      2,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      4,
+      504,
+      20
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      17,
+      221
+    ]
+  ],
+  "classes": [
+    "000 - Normal",
+    "126 - Path Traversal",
+    "1336 - SSTI",
+    "248 - Command Injection",
+    "66 - SQL Injection",
+    "79 - Cross-Site Scripting",
+    "88 - OS Command Injection",
+    "918 - SSRF",
+    "94 - Code Injection"
+  ],
+  "time_features_s": 182.0,
+  "time_fit_s": 701.9,
+  "xgb_params": {
+    "n_estimators": 300,
+    "max_depth": 8,
+    "learning_rate": 0.1,
+    "tree_method": "hist",
+    "subsample": 1.0,
+    "colsample_bytree": 1.0,
+    "n_jobs": 16
+  },
+  "assumptions": [
+    "TF-IDF: analyzer='char', ngram_range=(1,2), max_features=2000, lowercase=False, ham istek metni",
+    "Elle tasarlanmış özellikler ve regex imzaları URL-decode edilmiş, küçük harfe çevrilmiş metin üzerinde",
+    "Regex imzaları makalede listelenmediği için yaygın kalıplardan derlendi"
+  ]
+}

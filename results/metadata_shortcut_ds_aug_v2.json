@@ -1,0 +1,33 @@
+{
+  "host": {
+    "accuracy": 0.7306,
+    "macro_f1": 0.2816
+  },
+  "n_headers": {
+    "accuracy": 0.599,
+    "macro_f1": 0.2019
+  },
+  "length": {
+    "accuracy": 0.7263,
+    "macro_f1": 0.3783
+  },
+  "header_names": {
+    "accuracy": 0.6298,
+    "macro_f1": 0.2771
+  },
+  "ALL_METADATA": {
+    "accuracy": 0.7686,
+    "macro_f1": 0.4561
+  },
+  "ALL_METADATA_per_class_f1": {
+    "000 - Normal": 0.892,
+    "126 - Path Traversal": 0.259,
+    "1336 - SSTI": 0.166,
+    "248 - Command Injection": 0.259,
+    "66 - SQL Injection": 0.597,
+    "79 - Cross-Site Scripting": 0.449,
+    "88 - OS Command Injection": 0.86,
+    "918 - SSRF": 0.37,
+    "94 - Code Injection": 0.252
+  }
+}

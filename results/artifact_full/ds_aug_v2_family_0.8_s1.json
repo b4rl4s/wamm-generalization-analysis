@@ -1,0 +1,74 @@
+{
+  "model": "ds_aug_v2_family_0.8_s1",
+  "dataset": "ds_aug_v2",
+  "split": "family_0.8",
+  "seed": 1,
+  "n_test": 140824,
+  "n_test_with_oastify": 2175,
+  "n_normal_test_with_oastify": 0,
+  "per_class": {
+    "1336 - SSTI": {
+      "n_class_test": 379,
+      "n_changed": 45,
+      "recall_before": 0.9777777777777777,
+      "recall_after": 0.9777777777777777,
+      "to_normal_after": 0.0,
+      "pred_after": {
+        "1336 - SSTI": 44,
+        "79 - Cross-Site Scripting": 1
+      }
+    },
+    "248 - Command Injection": {
+      "n_class_test": 519,
+      "n_changed": 2,
+      "recall_before": 0.0,
+      "recall_after": 0.0,
+      "to_normal_after": 0.0,
+      "pred_after": {
+        "79 - Cross-Site Scripting": 2
+      }
+    },
+    "66 - SQL Injection": {
+      "n_class_test": 29188,
+      "n_changed": 526,
+      "recall_before": 0.9467680608365019,
+      "recall_after": 0.9277566539923955,
+      "to_normal_after": 0.0,
+      "pred_after": {
+        "66 - SQL Injection": 488,
+        "94 - Code Injection": 27,
+        "126 - Path Traversal": 8,
+        "918 - SSRF": 3
+      }
+    },
+    "88 - OS Command Injection": {
+      "n_class_test": 7218,
+      "n_changed": 1043,
+      "recall_before": 0.8322147651006712,
+      "recall_after": 0.825503355704698,
+      "to_normal_after": 0.005752636625119847,
+      "pred_after": {
+        "88 - OS Command Injection": 861,
+        "918 - SSRF": 72,
+        "66 - SQL Injection": 67,
+        "126 - Path Traversal": 37,
+        "000 - Normal": 6
+      }
+    },
+    "918 - SSRF": {
+      "n_class_test": 529,
+      "n_changed": 447,
+      "recall_before": 0.9149888143176734,
+      "recall_after": 0.8098434004474273,
+      "to_normal_after": 0.026845637583892617,
+      "pred_after": {
+        "918 - SSRF": 362,
+        "94 - Code Injection": 44,
+        "126 - Path Traversal": 23,
+        "000 - Normal": 12,
+        "1336 - SSTI": 3,
+        "66 - SQL Injection": 3
+      }
+    }
+  }
+}

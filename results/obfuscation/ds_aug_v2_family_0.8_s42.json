@@ -1,0 +1,475 @@
+{
+  "model": "ds_aug_v2_family_0.8_s42",
+  "dataset": "ds_aug_v2",
+  "split": "family_0.8",
+  "n_sampled": 8153,
+  "per_class_cap": 2000,
+  "transforms": {
+    "case": {
+      "n_changed": 1934,
+      "recall_before": 0.8950361944157187,
+      "recall_after": 0.8945191313340227,
+      "detect_before": 1.0,
+      "detect_after": 1.0,
+      "evasion_rate": 0.0,
+      "class_flip_rate": 0.0034662045060658577,
+      "per_class": {
+        "66 - SQL Injection": {
+          "n": 2000,
+          "n_changed": 1779,
+          "recall_before": 0.9606520517144463,
+          "recall_after": 0.9595278246205734,
+          "detect_before": 1.0,
+          "detect_after": 1.0,
+          "evasion_rate": 0.0,
+          "class_flip_rate": 0.0023405500292568754
+        },
+        "79 - Cross-Site Scripting": {
+          "n": 487,
+          "n_changed": 155,
+          "recall_before": 0.14193548387096774,
+          "recall_after": 0.14838709677419354,
+          "detect_before": 1.0,
+          "detect_after": 1.0,
+          "evasion_rate": 0.0,
+          "class_flip_rate": 0.09090909090909091
+        }
+      },
+      "time_s": 3.0
+    },
+    "whitespace": {
+      "n_changed": 3902,
+      "recall_before": 0.8252178370066633,
+      "recall_after": 0.8277806253203486,
+      "detect_before": 0.9823167606355715,
+      "detect_after": 0.982060481804203,
+      "evasion_rate": 0.00031055900621118014,
+      "class_flip_rate": 0.005900621118012423,
+      "per_class": {
+        "126 - Path Traversal": {
+          "n": 2000,
+          "n_changed": 64,
+          "recall_before": 0.96875,
+          "recall_after": 0.96875,
+          "detect_before": 0.984375,
+          "detect_after": 0.984375,
+          "evasion_rate": 0.0,
+          "class_flip_rate": 0.0
+        },
+        "1336 - SSTI": {
+          "n": 379,
+          "n_changed": 64,
+          "recall_before": 0.953125,
+          "recall_after": 0.953125,
+          "detect_before": 1.0,
+          "detect_after": 1.0,
+          "evasion_rate": 0.0,
+          "class_flip_rate": 0.0
+        },
+        "248 - Command Injection": {
+          "n": 519,
+          "n_changed": 174,
+          "recall_before": 0.27011494252873564,
+          "recall_after": 0.2988505747126437,
+          "detect_before": 1.0,
+          "detect_after": 1.0,
+          "evasion_rate": 0.0,
+          "class_flip_rate": 0.10638297872340426
+        },
+        "66 - SQL Injection": {
+          "n": 2000,
+          "n_changed": 1780,
+          "recall_before": 0.9657303370786516,
+          "recall_after": 0.9662921348314607,
+          "detect_before": 1.0,
+          "detect_after": 0.999438202247191,
+          "evasion_rate": 0.0005817335660267597,
+          "class_flip_rate": 0.0
+        },
+        "79 - Cross-Site Scripting": {
+          "n": 487,
+          "n_changed": 24,
+          "recall_before": 0.0,
+          "recall_after": 0.0,
+          "detect_before": 1.0,
+          "detect_after": 1.0,
+          "evasion_rate": 0.0,
+          "class_flip_rate": 0.0
+        },
+        "88 - OS Command Injection": {
+          "n": 2000,
+          "n_changed": 1220,
+          "recall_before": 0.8426229508196721,
+          "recall_after": 0.8459016393442623,
+          "detect_before": 0.9442622950819672,
+          "detect_after": 0.9442622950819672,
+          "evasion_rate": 0.0,
+          "class_flip_rate": 0.013618677042801557
+        },
+        "918 - SSRF": {
+          "n": 529,
+          "n_changed": 439,
+          "recall_before": 0.45785876993166286,
+          "recall_after": 0.45785876993166286,
+          "detect_before": 1.0,
+          "detect_after": 1.0,
+          "evasion_rate": 0.0,
+          "class_flip_rate": 0.0
+        },
+        "94 - Code Injection": {
+          "n": 239,
+          "n_changed": 137,
+          "recall_before": 0.7445255474452555,
+          "recall_after": 0.7445255474452555,
+          "detect_before": 1.0,
+          "detect_after": 1.0,
+          "evasion_rate": 0.0,
+          "class_flip_rate": 0.0
+        }
+      },
+      "time_s": 13.6
+    },
+    "sql_comment": {
+      "n_changed": 1708,
+      "recall_before": 0.9689695550351288,
+      "recall_after": 0.9654566744730679,
+      "detect_before": 1.0,
+      "detect_after": 0.9935597189695551,
+      "evasion_rate": 0.006646525679758308,
+      "class_flip_rate": 0.0006042296072507553,
+      "per_class": {
+        "66 - SQL Injection": {
+          "n": 2000,
+          "n_changed": 1708,
+          "recall_before": 0.9689695550351288,
+          "recall_after": 0.9654566744730679,
+          "detect_before": 1.0,
+          "detect_after": 0.9935597189695551,
+          "evasion_rate": 0.006646525679758308,
+          "class_flip_rate": 0.0006042296072507553
+        }
+      },
+      "time_s": 1.5
+    },
+    "html_slash": {
+      "n_changed": 0
+    },
+    "cmd_quote": {
+      "n_changed": 1073,
+      "recall_before": 0.9207828518173345,
+      "recall_after": 0.8452935694315005,
+      "detect_before": 0.9972041006523765,
+      "detect_after": 0.9888164026095061,
+      "evasion_rate": 0.008097165991902834,
+      "class_flip_rate": 0.07995951417004049,
+      "per_class": {
+        "248 - Command Injection": {
+          "n": 519,
+          "n_changed": 0
+        },
+        "88 - OS Command Injection": {
+          "n": 2000,
+          "n_changed": 1073,
+          "recall_before": 0.9207828518173345,
+          "recall_after": 0.8452935694315005,
+          "detect_before": 0.9972041006523765,
+          "detect_after": 0.9888164026095061,
+          "evasion_rate": 0.008097165991902834,
+          "class_flip_rate": 0.07995951417004049
+        }
+      },
+      "time_s": 5.2
+    },
+    "path_dot": {
+      "n_changed": 1855,
+      "recall_before": 1.0,
+      "recall_after": 1.0,
+      "detect_before": 1.0,
+      "detect_after": 1.0,
+      "evasion_rate": 0.0,
+      "class_flip_rate": 0.0,
+      "per_class": {
+        "126 - Path Traversal": {
+          "n": 2000,
+          "n_changed": 1855,
+          "recall_before": 1.0,
+          "recall_after": 1.0,
+          "detect_before": 1.0,
+          "detect_after": 1.0,
+          "evasion_rate": 0.0,
+          "class_flip_rate": 0.0
+        }
+      },
+      "time_s": 0.7
+    },
+    "artifact": {
+      "n_changed": 869,
+      "recall_before": 0.6950517836593786,
+      "recall_after": 0.5454545454545454,
+      "detect_before": 0.9907940161104718,
+      "detect_after": 0.9712313003452244,
+      "evasion_rate": 0.028145695364238412,
+      "class_flip_rate": 0.2052980132450331,
+      "per_class": {
+        "126 - Path Traversal": {
+          "n": 2000,
+          "n_changed": 0
+        },
+        "1336 - SSTI": {
+          "n": 379,
+          "n_changed": 65,
+          "recall_before": 0.9384615384615385,
+          "recall_after": 0.9384615384615385,
+          "detect_before": 1.0,
+          "detect_after": 1.0,
+          "evasion_rate": 0.0,
+          "class_flip_rate": 0.0
+        },
+        "248 - Command Injection": {
+          "n": 519,
+          "n_changed": 18,
+          "recall_before": 0.0,
+          "recall_after": 0.2222222222222222,
+          "detect_before": 1.0,
+          "detect_after": 1.0,
+          "evasion_rate": 0.0,
+          "class_flip_rate": 0.0
+        },
+        "66 - SQL Injection": {
+          "n": 2000,
+          "n_changed": 48,
+          "recall_before": 0.8333333333333334,
+          "recall_after": 0.8541666666666666,
+          "detect_before": 1.0,
+          "detect_after": 1.0,
+          "evasion_rate": 0.0,
+          "class_flip_rate": 0.0
+        },
+        "79 - Cross-Site Scripting": {
+          "n": 487,
+          "n_changed": 0
+        },
+        "88 - OS Command Injection": {
+          "n": 2000,
+          "n_changed": 315,
+          "recall_before": 0.7555555555555555,
+          "recall_after": 0.7492063492063492,
+          "detect_before": 0.9746031746031746,
+          "detect_after": 0.9682539682539683,
+          "evasion_rate": 0.008403361344537815,
+          "class_flip_rate": 0.025210084033613446
+        },
+        "918 - SSRF": {
+          "n": 529,
+          "n_changed": 423,
+          "recall_before": 0.6264775413711584,
+          "recall_after": 0.3120567375886525,
+          "detect_before": 1.0,
+          "detect_after": 0.9645390070921985,
+          "evasion_rate": 0.05660377358490566,
+          "class_flip_rate": 0.44528301886792454
+        },
+        "94 - Code Injection": {
+          "n": 239,
+          "n_changed": 0
+        }
+      },
+      "time_s": 7.8
+    },
+    "encoding_norm": {
+      "n_changed": 1239,
+      "recall_before": 0.5738498789346247,
+      "recall_after": 0.5956416464891041,
+      "detect_before": 0.9903147699757869,
+      "detect_after": 0.9903147699757869,
+      "evasion_rate": 0.0,
+      "class_flip_rate": 0.009845288326300985,
+      "per_class": {
+        "126 - Path Traversal": {
+          "n": 2000,
+          "n_changed": 39,
+          "recall_before": 1.0,
+          "recall_after": 1.0,
+          "detect_before": 1.0,
+          "detect_after": 1.0,
+          "evasion_rate": 0.0,
+          "class_flip_rate": 0.0
+        },
+        "1336 - SSTI": {
+          "n": 379,
+          "n_changed": 51,
+          "recall_before": 0.9215686274509803,
+          "recall_after": 0.9215686274509803,
+          "detect_before": 1.0,
+          "detect_after": 1.0,
+          "evasion_rate": 0.0,
+          "class_flip_rate": 0.0
+        },
+        "248 - Command Injection": {
+          "n": 519,
+          "n_changed": 95,
+          "recall_before": 0.24210526315789474,
+          "recall_after": 0.2736842105263158,
+          "detect_before": 1.0,
+          "detect_after": 1.0,
+          "evasion_rate": 0.0,
+          "class_flip_rate": 0.043478260869565216
+        },
+        "66 - SQL Injection": {
+          "n": 2000,
+          "n_changed": 202,
+          "recall_before": 0.8564356435643564,
+          "recall_after": 0.8366336633663366,
+          "detect_before": 1.0,
+          "detect_after": 1.0,
+          "evasion_rate": 0.0,
+          "class_flip_rate": 0.028901734104046242
+        },
+        "79 - Cross-Site Scripting": {
+          "n": 487,
+          "n_changed": 56,
+          "recall_before": 0.0,
+          "recall_after": 0.0,
+          "detect_before": 1.0,
+          "detect_after": 1.0,
+          "evasion_rate": 0.0,
+          "class_flip_rate": 0.0
+        },
+        "88 - OS Command Injection": {
+          "n": 2000,
+          "n_changed": 372,
+          "recall_before": 0.7553763440860215,
+          "recall_after": 0.8198924731182796,
+          "detect_before": 0.967741935483871,
+          "detect_after": 0.967741935483871,
+          "evasion_rate": 0.0,
+          "class_flip_rate": 0.0035587188612099642
+        },
+        "918 - SSRF": {
+          "n": 529,
+          "n_changed": 358,
+          "recall_before": 0.3324022346368715,
+          "recall_after": 0.33519553072625696,
+          "detect_before": 1.0,
+          "detect_after": 1.0,
+          "evasion_rate": 0.0,
+          "class_flip_rate": 0.0
+        },
+        "94 - Code Injection": {
+          "n": 239,
+          "n_changed": 66,
+          "recall_before": 0.4393939393939394,
+          "recall_after": 0.48484848484848486,
+          "detect_before": 1.0,
+          "detect_after": 1.0,
+          "evasion_rate": 0.0,
+          "class_flip_rate": 0.0
+        }
+      },
+      "time_s": 5.6
+    },
+    "combo": {
+      "n_changed": 6260,
+      "recall_before": 0.8629392971246006,
+      "recall_after": 0.8244408945686901,
+      "detect_before": 0.9881789137380191,
+      "detect_after": 0.9766773162939297,
+      "evasion_rate": 0.012587930396149574,
+      "class_flip_rate": 0.04072565716401333,
+      "per_class": {
+        "126 - Path Traversal": {
+          "n": 2000,
+          "n_changed": 1870,
+          "recall_before": 0.9989304812834224,
+          "recall_after": 0.9989304812834224,
+          "detect_before": 0.9994652406417113,
+          "detect_after": 0.9994652406417113,
+          "evasion_rate": 0.0,
+          "class_flip_rate": 0.0
+        },
+        "1336 - SSTI": {
+          "n": 379,
+          "n_changed": 65,
+          "recall_before": 0.9384615384615385,
+          "recall_after": 0.9384615384615385,
+          "detect_before": 1.0,
+          "detect_after": 1.0,
+          "evasion_rate": 0.0,
+          "class_flip_rate": 0.0
+        },
+        "248 - Command Injection": {
+          "n": 519,
+          "n_changed": 192,
+          "recall_before": 0.24479166666666666,
+          "recall_after": 0.2916666666666667,
+          "detect_before": 1.0,
+          "detect_after": 1.0,
+          "evasion_rate": 0.0,
+          "class_flip_rate": 0.10638297872340426
+        },
+        "66 - SQL Injection": {
+          "n": 2000,
+          "n_changed": 1826,
+          "recall_before": 0.9589266155531215,
+          "recall_after": 0.9348302300109529,
+          "detect_before": 1.0,
+          "detect_after": 0.9780941949616648,
+          "evasion_rate": 0.022844089091947458,
+          "class_flip_rate": 0.005139920045688178
+        },
+        "79 - Cross-Site Scripting": {
+          "n": 487,
+          "n_changed": 166,
+          "recall_before": 0.13253012048192772,
+          "recall_after": 0.13855421686746988,
+          "detect_before": 1.0,
+          "detect_after": 1.0,
+          "evasion_rate": 0.0,
+          "class_flip_rate": 0.09090909090909091
+        },
+        "88 - OS Command Injection": {
+          "n": 2000,
+          "n_changed": 1498,
+          "recall_before": 0.8571428571428571,
+          "recall_after": 0.807743658210948,
+          "detect_before": 0.9512683578104139,
+          "detect_after": 0.9399198931909212,
+          "evasion_rate": 0.010124610591900311,
+          "class_flip_rate": 0.06697819314641744
+        },
+        "918 - SSRF": {
+          "n": 529,
+          "n_changed": 506,
+          "recall_before": 0.5276679841897233,
+          "recall_after": 0.2648221343873518,
+          "detect_before": 1.0,
+          "detect_after": 0.9703557312252964,
+          "evasion_rate": 0.056179775280898875,
+          "class_flip_rate": 0.4419475655430712
+        },
+        "94 - Code Injection": {
+          "n": 239,
+          "n_changed": 137,
+          "recall_before": 0.7445255474452555,
+          "recall_after": 0.7445255474452555,
+          "detect_before": 1.0,
+          "detect_after": 1.0,
+          "evasion_rate": 0.0,
+          "class_flip_rate": 0.0
+        }
+      },
+      "time_s": 28.4
+    }
+  },
+  "assumptions": {
+    "case": "SQLi: SQL anahtar kelimeleri; XSS: HTML etiket/öznitelik adları büyük/küçük harfe duyarsızdır.",
+    "whitespace": "Payload benzeri parçalarda boşluk yerine sekme: SQL, HTML öznitelik ayırıcısı, POSIX kabuk (IFS), HTTP header OWS için eşdeğer.",
+    "sql_comment": "SQL anahtar kelimelerine bitişik boşluk yerine /**/ (MySQL, PostgreSQL, MSSQL'de eşdeğer).",
+    "html_slash": "HTML etiketinde ad/öznitelik arasında boşluk yerine '/' (HTML5 ayrıştırıcısında eşdeğer).",
+    "cmd_quote": "Kabuk komut adına boş tırnak çifti (\"\") eklemek (bash/sh ve cmd.exe komut adını değiştirmez).",
+    "path_dot": "'../' yerine './../' (yol çözümlemesinde eşdeğer).",
+    "artifact": "Burp Collaborator alan adı (oastify.com) saldırganın seçtiği başka bir geri çağırma alan adıyla değiştirilir (alt alan adı korunur).",
+    "encoding_norm": "ÇÖZÜCÜYE BAĞLI: çok katmanlı URL encoding tek katmana indirilir; hedef yinelemeli çözüyorsa eşdeğer.",
+    "combo": "Kategoriye uygulanabilen tüm dönüşümler birlikte: artifact, sql_comment, html_slash, cmd_quote, path_dot, case, whitespace (çözücüye bağlı encoding_norm hariç)."
+  }
+}

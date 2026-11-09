@@ -1,0 +1,749 @@
+{
+  "dataset": "ds_base",
+  "rows": 859293,
+  "empty_requests": 0,
+  "labels": {
+    "Normal": 476674,
+    "SQL Injection": 249100,
+    "Fake the Source of Data": 55983,
+    "HTTP Response Splitting": 19668,
+    "Path Traversal": 17762,
+    "Code Injection": 15805,
+    "Protocol Manipulation": 9153,
+    "OS Command Injection": 6150,
+    "HTTP Verb Tampering": 4055,
+    "Scanning for Vulnerable Software": 2414,
+    "Input Data Manipulation": 1387,
+    "Dictionary-based Password Attack": 1142
+  },
+  "length_by_class": [
+    {
+      "label": "Code Injection",
+      "mean": 591.4,
+      "50%": 583.0,
+      "max": 1084.0
+    },
+    {
+      "label": "Dictionary-based Password Attack",
+      "mean": 591.8,
+      "50%": 593.0,
+      "max": 951.0
+    },
+    {
+      "label": "Fake the Source of Data",
+      "mean": 351.5,
+      "50%": 371.0,
+      "max": 909.0
+    },
+    {
+      "label": "HTTP Response Splitting",
+      "mean": 545.3,
+      "50%": 610.0,
+      "max": 1009.0
+    },
+    {
+      "label": "HTTP Verb Tampering",
+      "mean": 421.3,
+      "50%": 412.0,
+      "max": 964.0
+    },
+    {
+      "label": "Input Data Manipulation",
+      "mean": 633.2,
+      "50%": 647.0,
+      "max": 1136.0
+    },
+    {
+      "label": "Normal",
+      "mean": 237.6,
+      "50%": 175.0,
+      "max": 1157.0
+    },
+    {
+      "label": "OS Command Injection",
+      "mean": 689.2,
+      "50%": 678.0,
+      "max": 1008.0
+    },
+    {
+      "label": "Path Traversal",
+      "mean": 385.7,
+      "50%": 341.0,
+      "max": 854.0
+    },
+    {
+      "label": "Protocol Manipulation",
+      "mean": 419.8,
+      "50%": 423.0,
+      "max": 940.0
+    },
+    {
+      "label": "SQL Injection",
+      "mean": 500.0,
+      "50%": 512.0,
+      "max": 1044.0
+    },
+    {
+      "label": "Scanning for Vulnerable Software",
+      "mean": 172.7,
+      "50%": 169.0,
+      "max": 247.0
+    }
+  ],
+  "has_body_rate_by_class": {
+    "Code Injection": 0.123,
+    "Dictionary-based Password Attack": 1.0,
+    "Fake the Source of Data": 0.054,
+    "HTTP Response Splitting": 0.053,
+    "HTTP Verb Tampering": 0.03,
+    "Input Data Manipulation": 1.0,
+    "Normal": 0.006,
+    "OS Command Injection": 0.584,
+    "Path Traversal": 0.049,
+    "Protocol Manipulation": 0.137,
+    "SQL Injection": 0.037,
+    "Scanning for Vulnerable Software": 0.0
+  },
+  "n_headers_mean_by_class": {
+    "Code Injection": 2.94,
+    "Dictionary-based Password Attack": 3.89,
+    "Fake the Source of Data": 2.9,
+    "HTTP Response Splitting": 2.87,
+    "HTTP Verb Tampering": 3.02,
+    "Input Data Manipulation": 4.04,
+    "Normal": 2.21,
+    "OS Command Injection": 3.61,
+    "Path Traversal": 2.88,
+    "Protocol Manipulation": 2.87,
+    "SQL Injection": 2.84,
+    "Scanning for Vulnerable Software": 2.0
+  },
+  "methods_by_class": {
+    "Code Injection": [
+      [
+        "GET",
+        13856
+      ],
+      [
+        "POST",
+        1949
+      ]
+    ],
+    "Dictionary-based Password Attack": [
+      [
+        "POST",
+        1133
+      ],
+      [
+        "OPTIONS",
+        1
+      ],
+      [
+        "TRACK",
+        1
+      ],
+      [
+        "COPY",
+        1
+      ],
+      [
+        "LOCK",
+        1
+      ]
+    ],
+    "Fake the Source of Data": [
+      [
+        "GET",
+        51583
+      ],
+      [
+        "POST",
+        4067
+      ],
+      [
+        "OPTIONS",
+        285
+      ],
+      [
+        "TRACE",
+        48
+      ]
+    ],
+    "HTTP Response Splitting": [
+      [
+        "GET",
+        18568
+      ],
+      [
+        "POST",
+        1100
+      ]
+    ],
+    "HTTP Verb Tampering": [
+      [
+        "TRACK",
+        886
+      ],
+      [
+        "COPY",
+        449
+      ],
+      [
+        "LOCK",
+        449
+      ],
+      [
+        "MKCOL",
+        449
+      ],
+      [
+        "MOVE",
+        449
+      ]
+    ],
+    "Input Data Manipulation": [
+      [
+        "POST",
+        1387
+      ]
+    ],
+    "Normal": [
+      [
+        "GET",
+        470625
+      ],
+      [
+        "POST",
+        3310
+      ],
+      [
+        "TRACE",
+        1816
+      ],
+      [
+        "OPTIONS",
+        921
+      ],
+      [
+        "",
+        2
+      ]
+    ],
+    "OS Command Injection": [
+      [
+        "POST",
+        3589
+      ],
+      [
+        "GET",
+        2561
+      ]
+    ],
+    "Path Traversal": [
+      [
+        "GET",
+        16889
+      ],
+      [
+        "POST",
+        871
+      ],
+      [
+        "HEAD",
+        2
+      ]
+    ],
+    "Protocol Manipulation": [
+      [
+        "GET",
+        7377
+      ],
+      [
+        "CONNECT",
+        453
+      ],
+      [
+        "PATCH",
+        440
+      ],
+      [
+        "PUT",
+        440
+      ],
+      [
+        "POST",
+        311
+      ]
+    ],
+    "SQL Injection": [
+      [
+        "GET",
+        238889
+      ],
+      [
+        "POST",
+        10211
+      ]
+    ],
+    "Scanning for Vulnerable Software": [
+      [
+        "GET",
+        1327
+      ],
+      [
+        "HEAD",
+        1076
+      ],
+      [
+        "OPTIONS",
+        10
+      ],
+      [
+        "THBQ",
+        1
+      ]
+    ]
+  },
+  "hosts_by_class": {
+    "Code Injection": [
+      [
+        "test-site.com",
+        15803
+      ],
+      [
+        "249.network5-175-62-15.static.network5.net",
+        2
+      ]
+    ],
+    "Dictionary-based Password Attack": [
+      [
+        "test-site.com",
+        1142
+      ]
+    ],
+    "Fake the Source of Data": [
+      [
+        "test-site.com",
+        55926
+      ],
+      [
+        "172.26.0.1",
+        57
+      ]
+    ],
+    "HTTP Response Splitting": [
+      [
+        "test-site.com",
+        19666
+      ],
+      [
+        "172.26.0.1",
+        2
+      ]
+    ],
+    "HTTP Verb Tampering": [
+      [
+        "test-site.com",
+        4055
+      ]
+    ],
+    "Input Data Manipulation": [
+      [
+        "test-site.com",
+        1387
+      ]
+    ],
+    "Normal": [
+      [
+        "test-site.com",
+        476612
+      ],
+      [
+        "172.26.0.1",
+        48
+      ],
+      [
+        "249.network5-175-62-15.static.network5.net",
+        6
+      ]
+    ],
+    "OS Command Injection": [
+      [
+        "test-site.com",
+        6148
+      ],
+      [
+        "249.network5-175-62-15.static.network5.net",
+        2
+      ]
+    ],
+    "Path Traversal": [
+      [
+        "test-site.com",
+        17732
+      ],
+      [
+        "249.network5-175-62-15.static.network5.net",
+        18
+      ],
+      [
+        "172.26.0.1",
+        12
+      ]
+    ],
+    "Protocol Manipulation": [
+      [
+        "test-site.com",
+        7732
+      ],
+      [
+        "172.26.0.1",
+        774
+      ],
+      [
+        "www.google.com:80",
+        453
+      ]
+    ],
+    "SQL Injection": [
+      [
+        "test-site.com",
+        249095
+      ],
+      [
+        "249.network5-175-62-15.static.network5.net",
+        5
+      ]
+    ],
+    "Scanning for Vulnerable Software": [
+      [
+        "249.network5-175-62-15.static.network5.net",
+        2414
+      ]
+    ]
+  },
+  "user_agents_by_class": {
+    "Code Injection": [
+      [
+        "Mozilla/5.0 (X11; Linux x86_64; rv:70.0) Gecko/20100101 Firefox/70.0",
+        15174
+      ],
+      [
+        "Mozilla/5.0 (X11; Linux x86_64; rv:73.0) Gecko/20100101 Firefox/73.0",
+        478
+      ],
+      [
+        "'\"<script>alert(1);</script>",
+        89
+      ]
+    ],
+    "Dictionary-based Password Attack": [
+      [
+        "Mozilla/5.0 (X11; Linux x86_64; rv:70.0) Gecko/20100101 Firefox/70.0",
+        984
+      ],
+      [
+        "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:62.0) Gecko/20100101 Firefox/62.0",
+        72
+      ],
+      [
+        "",
+        2
+      ]
+    ],
+    "Fake the Source of Data": [
+      [
+        "Mozilla/5.0 (X11; Linux x86_64; rv:70.0) Gecko/20100101 Firefox/70.0",
+        51985
+      ],
+      [
+        "Mozilla/5.0 (X11; Linux x86_64; rv:73.0) Gecko/20100101 Firefox/73.0",
+        1642
+      ],
+      [
+        "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)",
+        575
+      ]
+    ],
+    "HTTP Response Splitting": [
+      [
+        "Mozilla/5.0 (X11; Linux x86_64; rv:70.0) Gecko/20100101 Firefox/70.0",
+        19068
+      ],
+      [
+        "Mozilla/5.0 (X11; Linux x86_64; rv:73.0) Gecko/20100101 Firefox/73.0",
+        600
+      ]
+    ],
+    "HTTP Verb Tampering": [
+      [
+        "Mozilla/5.0 (X11; Linux x86_64; rv:70.0) Gecko/20100101 Firefox/70.0",
+        3472
+      ],
+      [
+        "",
+        437
+      ],
+      [
+        "Mozilla/5.0 (X11; Linux x86_64; rv:73.0) Gecko/20100101 Firefox/73.0",
+        146
+      ]
+    ],
+    "Input Data Manipulation": [
+      [
+        "Mozilla/5.0 (X11; Linux x86_64; rv:70.0) Gecko/20100101 Firefox/70.0",
+        1302
+      ],
+      [
+        "Mozilla/5.0 (X11; Linux x86_64; rv:73.0) Gecko/20100101 Firefox/73.0",
+        85
+      ]
+    ],
+    "Normal": [
+      [
+        "Mozilla/5.0 (X11; Linux x86_64; rv:70.0) Gecko/20100101 Firefox/70.0",
+        100514
+      ],
+      [
+        "Mozilla/5.0 (X11; Linux x86_64; rv:73.0) Gecko/20100101 Firefox/73.0",
+        2897
+      ],
+      [
+        "",
+        2663
+      ]
+    ],
+    "OS Command Injection": [
+      [
+        "Mozilla/5.0 (X11; Linux x86_64; rv:70.0) Gecko/20100101 Firefox/70.0",
+        5781
+      ],
+      [
+        "Mozilla/5.0 (X11; Linux x86_64; rv:73.0) Gecko/20100101 Firefox/73.0",
+        192
+      ],
+      [
+        "() { :;}; echo 'X-Powered-By: ShellShock-Vulnerable'",
+        87
+      ]
+    ],
+    "Path Traversal": [
+      [
+        "Mozilla/5.0 (X11; Linux x86_64; rv:70.0) Gecko/20100101 Firefox/70.0",
+        16728
+      ],
+      [
+        "Mozilla/5.0 (X11; Linux x86_64; rv:73.0) Gecko/20100101 Firefox/73.0",
+        482
+      ],
+      [
+        "../../../../../../../../../../../../../../../../etc/passwd",
+        89
+      ]
+    ],
+    "Protocol Manipulation": [
+      [
+        "Mozilla/5.0 (X11; Linux x86_64; rv:70.0) Gecko/20100101 Firefox/70.0",
+        7409
+      ],
+      [
+        "Mozilla/5.0 (X11; Linux x86_64; rv:73.0) Gecko/20100101 Firefox/73.0",
+        606
+      ],
+      [
+        "Jakarta Commons-HttpClient/3.1",
+        453
+      ]
+    ],
+    "SQL Injection": [
+      [
+        "Mozilla/5.0 (X11; Linux x86_64; rv:70.0) Gecko/20100101 Firefox/70.0",
+        238323
+      ],
+      [
+        "Mozilla/5.0 (X11; Linux x86_64; rv:73.0) Gecko/20100101 Firefox/73.0",
+        6896
+      ],
+      [
+        "Mozilla/5.0 (X11; Linux x86_64; rv:70.0) Gecko/20100101 Firefox/70.0 OR 1=1 --",
+        168
+      ]
+    ],
+    "Scanning for Vulnerable Software": [
+      [
+        "Mozilla/5.0 (compatible; Nmap Scripting Engine; https://nmap.org/book/nse.html)",
+        2414
+      ]
+    ]
+  },
+  "ua_overlap": {
+    "attack_ua_unique": 807,
+    "normal_ua_unique": 1255,
+    "shared_ua": 61,
+    "attack_rows_with_ua_seen_in_normal": 0.9803
+  },
+  "dup_raw": {
+    "rows": 859293,
+    "unique": 471918,
+    "duplicate_rows": 387375,
+    "duplicate_rate": 0.4508,
+    "conflicting_keys": 559,
+    "conflicting_rows": 4680,
+    "per_class": [
+      {
+        "label": "Code Injection",
+        "n": 15805,
+        "unique": 15210,
+        "dup_rate": 0.0376
+      },
+      {
+        "label": "Dictionary-based Password Attack",
+        "n": 1142,
+        "unique": 1118,
+        "dup_rate": 0.021
+      },
+      {
+        "label": "Fake the Source of Data",
+        "n": 55983,
+        "unique": 46693,
+        "dup_rate": 0.1659
+      },
+      {
+        "label": "HTTP Response Splitting",
+        "n": 19668,
+        "unique": 19498,
+        "dup_rate": 0.0086
+      },
+      {
+        "label": "HTTP Verb Tampering",
+        "n": 4055,
+        "unique": 4055,
+        "dup_rate": 0.0
+      },
+      {
+        "label": "Input Data Manipulation",
+        "n": 1387,
+        "unique": 1381,
+        "dup_rate": 0.0043
+      },
+      {
+        "label": "Normal",
+        "n": 476674,
+        "unique": 119070,
+        "dup_rate": 0.7502
+      },
+      {
+        "label": "OS Command Injection",
+        "n": 6150,
+        "unique": 6150,
+        "dup_rate": 0.0
+      },
+      {
+        "label": "Path Traversal",
+        "n": 17762,
+        "unique": 12797,
+        "dup_rate": 0.2795
+      },
+      {
+        "label": "Protocol Manipulation",
+        "n": 9153,
+        "unique": 7645,
+        "dup_rate": 0.1648
+      },
+      {
+        "label": "SQL Injection",
+        "n": 249100,
+        "unique": 236498,
+        "dup_rate": 0.0506
+      },
+      {
+        "label": "Scanning for Vulnerable Software",
+        "n": 2414,
+        "unique": 2373,
+        "dup_rate": 0.017
+      }
+    ]
+  },
+  "dup_payload": {
+    "rows": 859293,
+    "unique": 343372,
+    "duplicate_rows": 515921,
+    "duplicate_rate": 0.6004,
+    "conflicting_keys": 738,
+    "conflicting_rows": 410218,
+    "per_class": [
+      {
+        "label": "Code Injection",
+        "n": 15805,
+        "unique": 11738,
+        "dup_rate": 0.2573
+      },
+      {
+        "label": "Dictionary-based Password Attack",
+        "n": 1142,
+        "unique": 1118,
+        "dup_rate": 0.021
+      },
+      {
+        "label": "Fake the Source of Data",
+        "n": 55983,
+        "unique": 43953,
+        "dup_rate": 0.2149
+      },
+      {
+        "label": "HTTP Response Splitting",
+        "n": 19668,
+        "unique": 18749,
+        "dup_rate": 0.0467
+      },
+      {
+        "label": "HTTP Verb Tampering",
+        "n": 4055,
+        "unique": 3935,
+        "dup_rate": 0.0296
+      },
+      {
+        "label": "Input Data Manipulation",
+        "n": 1387,
+        "unique": 1127,
+        "dup_rate": 0.1875
+      },
+      {
+        "label": "Normal",
+        "n": 476674,
+        "unique": 55695,
+        "dup_rate": 0.8832
+      },
+      {
+        "label": "OS Command Injection",
+        "n": 6150,
+        "unique": 6010,
+        "dup_rate": 0.0228
+      },
+      {
+        "label": "Path Traversal",
+        "n": 17762,
+        "unique": 11652,
+        "dup_rate": 0.344
+      },
+      {
+        "label": "Protocol Manipulation",
+        "n": 9153,
+        "unique": 4656,
+        "dup_rate": 0.4913
+      },
+      {
+        "label": "SQL Injection",
+        "n": 249100,
+        "unique": 183797,
+        "dup_rate": 0.2622
+      },
+      {
+        "label": "Scanning for Vulnerable Software",
+        "n": 2414,
+        "unique": 2372,
+        "dup_rate": 0.0174
+      }
+    ]
+  }
+}

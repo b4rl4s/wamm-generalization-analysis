@@ -1,0 +1,373 @@
+{
+  "dataset": "ds_aug_v2",
+  "rows": 704665,
+  "unique_skeletons": 237824,
+  "random_split_test_rows_with_same_skeleton_in_train": 0.6843,
+  "thresholds": {
+    "0.5": {
+      "families": 2104,
+      "largest_family_rows": 313205,
+      "largest_family_share": 0.4445,
+      "singleton_families": 1555,
+      "rows_in_mixed_label_families": 696761,
+      "random_split_test_rows_with_family_in_train": 0.9975,
+      "per_class": [
+        {
+          "label": "000 - Normal",
+          "rows": 493515,
+          "families": 1165,
+          "largest": 298692,
+          "largest_share": 0.605
+        },
+        {
+          "label": "126 - Path Traversal",
+          "rows": 17718,
+          "families": 166,
+          "largest": 15786,
+          "largest_share": 0.891
+        },
+        {
+          "label": "1336 - SSTI",
+          "rows": 1897,
+          "families": 23,
+          "largest": 1848,
+          "largest_share": 0.974
+        },
+        {
+          "label": "248 - Command Injection",
+          "rows": 2597,
+          "families": 51,
+          "largest": 2447,
+          "largest_share": 0.942
+        },
+        {
+          "label": "66 - SQL Injection",
+          "rows": 146086,
+          "families": 620,
+          "largest": 124607,
+          "largest_share": 0.853
+        },
+        {
+          "label": "79 - Cross-Site Scripting",
+          "rows": 2894,
+          "families": 21,
+          "largest": 2829,
+          "largest_share": 0.978
+        },
+        {
+          "label": "88 - OS Command Injection",
+          "rows": 36114,
+          "families": 149,
+          "largest": 26164,
+          "largest_share": 0.724
+        },
+        {
+          "label": "918 - SSRF",
+          "rows": 2645,
+          "families": 41,
+          "largest": 2048,
+          "largest_share": 0.774
+        },
+        {
+          "label": "94 - Code Injection",
+          "rows": 1199,
+          "families": 81,
+          "largest": 993,
+          "largest_share": 0.828
+        }
+      ]
+    },
+    "0.6": {
+      "families": 3555,
+      "largest_family_rows": 303640,
+      "largest_family_share": 0.4309,
+      "singleton_families": 2711,
+      "rows_in_mixed_label_families": 691618,
+      "random_split_test_rows_with_family_in_train": 0.9956,
+      "per_class": [
+        {
+          "label": "000 - Normal",
+          "rows": 493515,
+          "families": 1919,
+          "largest": 298679,
+          "largest_share": 0.605
+        },
+        {
+          "label": "126 - Path Traversal",
+          "rows": 17718,
+          "families": 233,
+          "largest": 15369,
+          "largest_share": 0.867
+        },
+        {
+          "label": "1336 - SSTI",
+          "rows": 1897,
+          "families": 30,
+          "largest": 1439,
+          "largest_share": 0.759
+        },
+        {
+          "label": "248 - Command Injection",
+          "rows": 2597,
+          "families": 54,
+          "largest": 2084,
+          "largest_share": 0.802
+        },
+        {
+          "label": "66 - SQL Injection",
+          "rows": 146086,
+          "families": 1213,
+          "largest": 121616,
+          "largest_share": 0.832
+        },
+        {
+          "label": "79 - Cross-Site Scripting",
+          "rows": 2894,
+          "families": 35,
+          "largest": 2516,
+          "largest_share": 0.869
+        },
+        {
+          "label": "88 - OS Command Injection",
+          "rows": 36114,
+          "families": 241,
+          "largest": 21104,
+          "largest_share": 0.584
+        },
+        {
+          "label": "918 - SSRF",
+          "rows": 2645,
+          "families": 55,
+          "largest": 1734,
+          "largest_share": 0.656
+        },
+        {
+          "label": "94 - Code Injection",
+          "rows": 1199,
+          "families": 90,
+          "largest": 656,
+          "largest_share": 0.547
+        }
+      ]
+    },
+    "0.7": {
+      "families": 7236,
+      "largest_family_rows": 298689,
+      "largest_family_share": 0.4239,
+      "singleton_families": 5665,
+      "rows_in_mixed_label_families": 666489,
+      "random_split_test_rows_with_family_in_train": 0.9911,
+      "per_class": [
+        {
+          "label": "000 - Normal",
+          "rows": 493515,
+          "families": 3432,
+          "largest": 298679,
+          "largest_share": 0.605
+        },
+        {
+          "label": "126 - Path Traversal",
+          "rows": 17718,
+          "families": 387,
+          "largest": 13403,
+          "largest_share": 0.756
+        },
+        {
+          "label": "1336 - SSTI",
+          "rows": 1897,
+          "families": 42,
+          "largest": 810,
+          "largest_share": 0.427
+        },
+        {
+          "label": "248 - Command Injection",
+          "rows": 2597,
+          "families": 60,
+          "largest": 969,
+          "largest_share": 0.373
+        },
+        {
+          "label": "66 - SQL Injection",
+          "rows": 146086,
+          "families": 3068,
+          "largest": 102382,
+          "largest_share": 0.701
+        },
+        {
+          "label": "79 - Cross-Site Scripting",
+          "rows": 2894,
+          "families": 49,
+          "largest": 1248,
+          "largest_share": 0.431
+        },
+        {
+          "label": "88 - OS Command Injection",
+          "rows": 36114,
+          "families": 475,
+          "largest": 18099,
+          "largest_share": 0.501
+        },
+        {
+          "label": "918 - SSRF",
+          "rows": 2645,
+          "families": 86,
+          "largest": 1137,
+          "largest_share": 0.43
+        },
+        {
+          "label": "94 - Code Injection",
+          "rows": 1199,
+          "families": 100,
+          "largest": 542,
+          "largest_share": 0.452
+        }
+      ]
+    },
+    "0.8": {
+      "families": 33570,
+      "largest_family_rows": 298689,
+      "largest_family_share": 0.4239,
+      "singleton_families": 26984,
+      "rows_in_mixed_label_families": 502280,
+      "random_split_test_rows_with_family_in_train": 0.9585,
+      "per_class": [
+        {
+          "label": "000 - Normal",
+          "rows": 493515,
+          "families": 15839,
+          "largest": 298679,
+          "largest_share": 0.605
+        },
+        {
+          "label": "126 - Path Traversal",
+          "rows": 17718,
+          "families": 1114,
+          "largest": 3650,
+          "largest_share": 0.206
+        },
+        {
+          "label": "1336 - SSTI",
+          "rows": 1897,
+          "families": 77,
+          "largest": 711,
+          "largest_share": 0.375
+        },
+        {
+          "label": "248 - Command Injection",
+          "rows": 2597,
+          "families": 80,
+          "largest": 957,
+          "largest_share": 0.369
+        },
+        {
+          "label": "66 - SQL Injection",
+          "rows": 146086,
+          "families": 15760,
+          "largest": 50250,
+          "largest_share": 0.344
+        },
+        {
+          "label": "79 - Cross-Site Scripting",
+          "rows": 2894,
+          "families": 70,
+          "largest": 1160,
+          "largest_share": 0.401
+        },
+        {
+          "label": "88 - OS Command Injection",
+          "rows": 36114,
+          "families": 1503,
+          "largest": 17871,
+          "largest_share": 0.495
+        },
+        {
+          "label": "918 - SSRF",
+          "rows": 2645,
+          "families": 155,
+          "largest": 1133,
+          "largest_share": 0.428
+        },
+        {
+          "label": "94 - Code Injection",
+          "rows": 1199,
+          "families": 120,
+          "largest": 212,
+          "largest_share": 0.177
+        }
+      ]
+    },
+    "0.9": {
+      "families": 125998,
+      "largest_family_rows": 298689,
+      "largest_family_share": 0.4239,
+      "singleton_families": 104999,
+      "rows_in_mixed_label_families": 368022,
+      "random_split_test_rows_with_family_in_train": 0.842,
+      "per_class": [
+        {
+          "label": "000 - Normal",
+          "rows": 493515,
+          "families": 52476,
+          "largest": 298679,
+          "largest_share": 0.605
+        },
+        {
+          "label": "126 - Path Traversal",
+          "rows": 17718,
+          "families": 3387,
+          "largest": 683,
+          "largest_share": 0.039
+        },
+        {
+          "label": "1336 - SSTI",
+          "rows": 1897,
+          "families": 220,
+          "largest": 694,
+          "largest_share": 0.366
+        },
+        {
+          "label": "248 - Command Injection",
+          "rows": 2597,
+          "families": 122,
+          "largest": 622,
+          "largest_share": 0.24
+        },
+        {
+          "label": "66 - SQL Injection",
+          "rows": 146086,
+          "families": 67062,
+          "largest": 21981,
+          "largest_share": 0.15
+        },
+        {
+          "label": "79 - Cross-Site Scripting",
+          "rows": 2894,
+          "families": 167,
+          "largest": 1144,
+          "largest_share": 0.395
+        },
+        {
+          "label": "88 - OS Command Injection",
+          "rows": 36114,
+          "families": 3861,
+          "largest": 13184,
+          "largest_share": 0.365
+        },
+        {
+          "label": "918 - SSRF",
+          "rows": 2645,
+          "families": 310,
+          "largest": 457,
+          "largest_share": 0.173
+        },
+        {
+          "label": "94 - Code Injection",
+          "rows": 1199,
+          "families": 275,
+          "largest": 129,
+          "largest_share": 0.108
+        }
+      ]
+    }
+  }
+}

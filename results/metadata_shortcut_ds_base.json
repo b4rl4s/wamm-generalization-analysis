@@ -1,0 +1,36 @@
+{
+  "host": {
+    "accuracy": 0.0059,
+    "macro_f1": 0.1021
+  },
+  "n_headers": {
+    "accuracy": 0.009,
+    "macro_f1": 0.0107
+  },
+  "length": {
+    "accuracy": 0.2857,
+    "macro_f1": 0.1556
+  },
+  "header_names": {
+    "accuracy": 0.0092,
+    "macro_f1": 0.0179
+  },
+  "ALL_METADATA": {
+    "accuracy": 0.5131,
+    "macro_f1": 0.3854
+  },
+  "ALL_METADATA_per_class_f1": {
+    "Code Injection": 0.326,
+    "Dictionary-based Password Attack": 0.235,
+    "Fake the Source of Data": 0.341,
+    "HTTP Response Splitting": 0.153,
+    "HTTP Verb Tampering": 0.996,
+    "Input Data Manipulation": 0.14,
+    "Normal": 0.807,
+    "OS Command Injection": 0.109,
+    "Path Traversal": 0.214,
+    "Protocol Manipulation": 0.117,
+    "SQL Injection": 0.204,
+    "Scanning for Vulnerable Software": 0.983
+  }
+}

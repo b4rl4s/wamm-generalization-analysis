@@ -1,0 +1,462 @@
+{
+  "model": "ds_base_random_s42",
+  "dataset": "ds_base",
+  "split": "random",
+  "n_sampled": 14860,
+  "per_class_cap": 2000,
+  "transforms": {
+    "case": {
+      "n_changed": 1346,
+      "recall_before": 1.0,
+      "recall_after": 1.0,
+      "detect_before": 1.0,
+      "detect_after": 1.0,
+      "evasion_rate": 0.0,
+      "class_flip_rate": 0.0,
+      "per_class": {
+        "SQL Injection": {
+          "n": 2000,
+          "n_changed": 1346,
+          "recall_before": 1.0,
+          "recall_after": 1.0,
+          "detect_before": 1.0,
+          "detect_after": 1.0,
+          "evasion_rate": 0.0,
+          "class_flip_rate": 0.0
+        }
+      },
+      "time_s": 0.6
+    },
+    "whitespace": {
+      "n_changed": 3510,
+      "recall_before": 0.9994301994301994,
+      "recall_after": 0.986039886039886,
+      "detect_before": 1.0,
+      "detect_after": 0.9982905982905983,
+      "evasion_rate": 0.0017103762827822121,
+      "class_flip_rate": 0.011687571265678449,
+      "per_class": {
+        "Code Injection": {
+          "n": 2000,
+          "n_changed": 283,
+          "recall_before": 1.0,
+          "recall_after": 1.0,
+          "detect_before": 1.0,
+          "detect_after": 1.0,
+          "evasion_rate": 0.0,
+          "class_flip_rate": 0.0
+        },
+        "Dictionary-based Password Attack": {
+          "n": 228,
+          "n_changed": 17,
+          "recall_before": 1.0,
+          "recall_after": 0.8823529411764706,
+          "detect_before": 1.0,
+          "detect_after": 1.0,
+          "evasion_rate": 0.0,
+          "class_flip_rate": 0.11764705882352941
+        },
+        "Fake the Source of Data": {
+          "n": 2000,
+          "n_changed": 115,
+          "recall_before": 1.0,
+          "recall_after": 1.0,
+          "detect_before": 1.0,
+          "detect_after": 1.0,
+          "evasion_rate": 0.0,
+          "class_flip_rate": 0.0
+        },
+        "HTTP Response Splitting": {
+          "n": 2000,
+          "n_changed": 237,
+          "recall_before": 1.0,
+          "recall_after": 1.0,
+          "detect_before": 1.0,
+          "detect_after": 1.0,
+          "evasion_rate": 0.0,
+          "class_flip_rate": 0.0
+        },
+        "HTTP Verb Tampering": {
+          "n": 811,
+          "n_changed": 54,
+          "recall_before": 1.0,
+          "recall_after": 1.0,
+          "detect_before": 1.0,
+          "detect_after": 1.0,
+          "evasion_rate": 0.0,
+          "class_flip_rate": 0.0
+        },
+        "Input Data Manipulation": {
+          "n": 277,
+          "n_changed": 17,
+          "recall_before": 1.0,
+          "recall_after": 1.0,
+          "detect_before": 1.0,
+          "detect_after": 1.0,
+          "evasion_rate": 0.0,
+          "class_flip_rate": 0.0
+        },
+        "OS Command Injection": {
+          "n": 1230,
+          "n_changed": 918,
+          "recall_before": 0.9989106753812637,
+          "recall_after": 0.9705882352941176,
+          "detect_before": 1.0,
+          "detect_after": 1.0,
+          "evasion_rate": 0.0,
+          "class_flip_rate": 0.028353326063249727
+        },
+        "Path Traversal": {
+          "n": 2000,
+          "n_changed": 102,
+          "recall_before": 1.0,
+          "recall_after": 1.0,
+          "detect_before": 1.0,
+          "detect_after": 1.0,
+          "evasion_rate": 0.0,
+          "class_flip_rate": 0.0
+        },
+        "Protocol Manipulation": {
+          "n": 1831,
+          "n_changed": 108,
+          "recall_before": 0.9907407407407407,
+          "recall_after": 0.9907407407407407,
+          "detect_before": 1.0,
+          "detect_after": 1.0,
+          "evasion_rate": 0.0,
+          "class_flip_rate": 0.0
+        },
+        "SQL Injection": {
+          "n": 2000,
+          "n_changed": 1659,
+          "recall_before": 1.0,
+          "recall_after": 0.9885473176612417,
+          "detect_before": 1.0,
+          "detect_after": 0.9963833634719711,
+          "evasion_rate": 0.003616636528028933,
+          "class_flip_rate": 0.007836045810729355
+        },
+        "Scanning for Vulnerable Software": {
+          "n": 483,
+          "n_changed": 0
+        }
+      },
+      "time_s": 2.3
+    },
+    "sql_comment": {
+      "n_changed": 1322,
+      "recall_before": 1.0,
+      "recall_after": 1.0,
+      "detect_before": 1.0,
+      "detect_after": 1.0,
+      "evasion_rate": 0.0,
+      "class_flip_rate": 0.0,
+      "per_class": {
+        "SQL Injection": {
+          "n": 2000,
+          "n_changed": 1322,
+          "recall_before": 1.0,
+          "recall_after": 1.0,
+          "detect_before": 1.0,
+          "detect_after": 1.0,
+          "evasion_rate": 0.0,
+          "class_flip_rate": 0.0
+        }
+      },
+      "time_s": 0.6
+    },
+    "html_slash": {
+      "n_changed": 0
+    },
+    "cmd_quote": {
+      "n_changed": 907,
+      "recall_before": 1.0,
+      "recall_after": 0.86438809261301,
+      "detect_before": 1.0,
+      "detect_after": 1.0,
+      "evasion_rate": 0.0,
+      "class_flip_rate": 0.13561190738699008,
+      "per_class": {
+        "OS Command Injection": {
+          "n": 1230,
+          "n_changed": 907,
+          "recall_before": 1.0,
+          "recall_after": 0.86438809261301,
+          "detect_before": 1.0,
+          "detect_after": 1.0,
+          "evasion_rate": 0.0,
+          "class_flip_rate": 0.13561190738699008
+        }
+      },
+      "time_s": 0.5
+    },
+    "path_dot": {
+      "n_changed": 1832,
+      "recall_before": 1.0,
+      "recall_after": 1.0,
+      "detect_before": 1.0,
+      "detect_after": 1.0,
+      "evasion_rate": 0.0,
+      "class_flip_rate": 0.0,
+      "per_class": {
+        "Path Traversal": {
+          "n": 2000,
+          "n_changed": 1832,
+          "recall_before": 1.0,
+          "recall_after": 1.0,
+          "detect_before": 1.0,
+          "detect_after": 1.0,
+          "evasion_rate": 0.0,
+          "class_flip_rate": 0.0
+        }
+      },
+      "time_s": 0.7
+    },
+    "artifact": {
+      "n_changed": 0
+    },
+    "encoding_norm": {
+      "n_changed": 1327,
+      "recall_before": 0.9984928409947249,
+      "recall_after": 0.9864355689525245,
+      "detect_before": 1.0,
+      "detect_after": 0.9962321024868124,
+      "evasion_rate": 0.0037735849056603774,
+      "class_flip_rate": 0.00830188679245283,
+      "per_class": {
+        "Code Injection": {
+          "n": 2000,
+          "n_changed": 222,
+          "recall_before": 1.0,
+          "recall_after": 0.9864864864864865,
+          "detect_before": 1.0,
+          "detect_after": 1.0,
+          "evasion_rate": 0.0,
+          "class_flip_rate": 0.013513513513513514
+        },
+        "Dictionary-based Password Attack": {
+          "n": 228,
+          "n_changed": 16,
+          "recall_before": 1.0,
+          "recall_after": 1.0,
+          "detect_before": 1.0,
+          "detect_after": 1.0,
+          "evasion_rate": 0.0,
+          "class_flip_rate": 0.0
+        },
+        "Fake the Source of Data": {
+          "n": 2000,
+          "n_changed": 793,
+          "recall_before": 1.0,
+          "recall_after": 1.0,
+          "detect_before": 1.0,
+          "detect_after": 1.0,
+          "evasion_rate": 0.0,
+          "class_flip_rate": 0.0
+        },
+        "HTTP Response Splitting": {
+          "n": 2000,
+          "n_changed": 11,
+          "recall_before": 1.0,
+          "recall_after": 1.0,
+          "detect_before": 1.0,
+          "detect_after": 1.0,
+          "evasion_rate": 0.0,
+          "class_flip_rate": 0.0
+        },
+        "HTTP Verb Tampering": {
+          "n": 811,
+          "n_changed": 2,
+          "recall_before": 1.0,
+          "recall_after": 1.0,
+          "detect_before": 1.0,
+          "detect_after": 1.0,
+          "evasion_rate": 0.0,
+          "class_flip_rate": 0.0
+        },
+        "Input Data Manipulation": {
+          "n": 277,
+          "n_changed": 14,
+          "recall_before": 1.0,
+          "recall_after": 1.0,
+          "detect_before": 1.0,
+          "detect_after": 1.0,
+          "evasion_rate": 0.0,
+          "class_flip_rate": 0.0
+        },
+        "OS Command Injection": {
+          "n": 1230,
+          "n_changed": 94,
+          "recall_before": 0.9893617021276596,
+          "recall_after": 0.9893617021276596,
+          "detect_before": 1.0,
+          "detect_after": 1.0,
+          "evasion_rate": 0.0,
+          "class_flip_rate": 0.0
+        },
+        "Path Traversal": {
+          "n": 2000,
+          "n_changed": 95,
+          "recall_before": 1.0,
+          "recall_after": 1.0,
+          "detect_before": 1.0,
+          "detect_after": 1.0,
+          "evasion_rate": 0.0,
+          "class_flip_rate": 0.0
+        },
+        "Protocol Manipulation": {
+          "n": 1831,
+          "n_changed": 5,
+          "recall_before": 0.8,
+          "recall_after": 0.8,
+          "detect_before": 1.0,
+          "detect_after": 1.0,
+          "evasion_rate": 0.0,
+          "class_flip_rate": 0.0
+        },
+        "SQL Injection": {
+          "n": 2000,
+          "n_changed": 75,
+          "recall_before": 1.0,
+          "recall_after": 0.8266666666666667,
+          "detect_before": 1.0,
+          "detect_after": 0.9333333333333333,
+          "evasion_rate": 0.06666666666666667,
+          "class_flip_rate": 0.10666666666666667
+        },
+        "Scanning for Vulnerable Software": {
+          "n": 483,
+          "n_changed": 0
+        }
+      },
+      "time_s": 0.8
+    },
+    "combo": {
+      "n_changed": 5360,
+      "recall_before": 0.9996268656716418,
+      "recall_after": 0.9229477611940299,
+      "detect_before": 1.0,
+      "detect_after": 0.996455223880597,
+      "evasion_rate": 0.0035460992907801418,
+      "class_flip_rate": 0.07316162747293767,
+      "per_class": {
+        "Code Injection": {
+          "n": 2000,
+          "n_changed": 283,
+          "recall_before": 1.0,
+          "recall_after": 1.0,
+          "detect_before": 1.0,
+          "detect_after": 1.0,
+          "evasion_rate": 0.0,
+          "class_flip_rate": 0.0
+        },
+        "Dictionary-based Password Attack": {
+          "n": 228,
+          "n_changed": 17,
+          "recall_before": 1.0,
+          "recall_after": 0.8823529411764706,
+          "detect_before": 1.0,
+          "detect_after": 1.0,
+          "evasion_rate": 0.0,
+          "class_flip_rate": 0.11764705882352941
+        },
+        "Fake the Source of Data": {
+          "n": 2000,
+          "n_changed": 115,
+          "recall_before": 1.0,
+          "recall_after": 1.0,
+          "detect_before": 1.0,
+          "detect_after": 1.0,
+          "evasion_rate": 0.0,
+          "class_flip_rate": 0.0
+        },
+        "HTTP Response Splitting": {
+          "n": 2000,
+          "n_changed": 237,
+          "recall_before": 1.0,
+          "recall_after": 1.0,
+          "detect_before": 1.0,
+          "detect_after": 1.0,
+          "evasion_rate": 0.0,
+          "class_flip_rate": 0.0
+        },
+        "HTTP Verb Tampering": {
+          "n": 811,
+          "n_changed": 54,
+          "recall_before": 1.0,
+          "recall_after": 1.0,
+          "detect_before": 1.0,
+          "detect_after": 1.0,
+          "evasion_rate": 0.0,
+          "class_flip_rate": 0.0
+        },
+        "Input Data Manipulation": {
+          "n": 277,
+          "n_changed": 17,
+          "recall_before": 1.0,
+          "recall_after": 1.0,
+          "detect_before": 1.0,
+          "detect_after": 1.0,
+          "evasion_rate": 0.0,
+          "class_flip_rate": 0.0
+        },
+        "OS Command Injection": {
+          "n": 1230,
+          "n_changed": 1031,
+          "recall_before": 0.9990300678952473,
+          "recall_after": 0.6226964112512124,
+          "detect_before": 1.0,
+          "detect_after": 0.9873908826382153,
+          "evasion_rate": 0.01262135922330097,
+          "class_flip_rate": 0.3640776699029126
+        },
+        "Path Traversal": {
+          "n": 2000,
+          "n_changed": 1836,
+          "recall_before": 1.0,
+          "recall_after": 1.0,
+          "detect_before": 1.0,
+          "detect_after": 1.0,
+          "evasion_rate": 0.0,
+          "class_flip_rate": 0.0
+        },
+        "Protocol Manipulation": {
+          "n": 1831,
+          "n_changed": 108,
+          "recall_before": 0.9907407407407407,
+          "recall_after": 0.9907407407407407,
+          "detect_before": 1.0,
+          "detect_after": 1.0,
+          "evasion_rate": 0.0,
+          "class_flip_rate": 0.0
+        },
+        "SQL Injection": {
+          "n": 2000,
+          "n_changed": 1662,
+          "recall_before": 1.0,
+          "recall_after": 0.9873646209386282,
+          "detect_before": 1.0,
+          "detect_after": 0.9963898916967509,
+          "evasion_rate": 0.0036101083032490976,
+          "class_flip_rate": 0.009025270758122744
+        },
+        "Scanning for Vulnerable Software": {
+          "n": 483,
+          "n_changed": 0
+        }
+      },
+      "time_s": 4.6
+    }
+  },
+  "assumptions": {
+    "case": "SQLi: SQL anahtar kelimeleri; XSS: HTML etiket/öznitelik adları büyük/küçük harfe duyarsızdır.",
+    "whitespace": "Payload benzeri parçalarda boşluk yerine sekme: SQL, HTML öznitelik ayırıcısı, POSIX kabuk (IFS), HTTP header OWS için eşdeğer.",
+    "sql_comment": "SQL anahtar kelimelerine bitişik boşluk yerine /**/ (MySQL, PostgreSQL, MSSQL'de eşdeğer).",
+    "html_slash": "HTML etiketinde ad/öznitelik arasında boşluk yerine '/' (HTML5 ayrıştırıcısında eşdeğer).",
+    "cmd_quote": "Kabuk komut adına boş tırnak çifti (\"\") eklemek (bash/sh ve cmd.exe komut adını değiştirmez).",
+    "path_dot": "'../' yerine './../' (yol çözümlemesinde eşdeğer).",
+    "artifact": "Burp Collaborator alan adı (oastify.com) saldırganın seçtiği başka bir geri çağırma alan adıyla değiştirilir (alt alan adı korunur).",
+    "encoding_norm": "ÇÖZÜCÜYE BAĞLI: çok katmanlı URL encoding tek katmana indirilir; hedef yinelemeli çözüyorsa eşdeğer.",
+    "combo": "Kategoriye uygulanabilen tüm dönüşümler birlikte: artifact, sql_comment, html_slash, cmd_quote, path_dot, case, whitespace (çözücüye bağlı encoding_norm hariç)."
+  }
+}

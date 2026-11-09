@@ -1,0 +1,20 @@
+{
+  "dataset": "ds_aug_v2",
+  "split": "random",
+  "featureset": "tfidf",
+  "seed": 42,
+  "accuracy": 0.9959,
+  "macro_f1": 0.863,
+  "per_class_f1": {
+    "000 - Normal": 0.9999,
+    "126 - Path Traversal": 0.9987,
+    "1336 - SSTI": 0.4013,
+    "248 - Command Injection": 0.8118,
+    "66 - SQL Injection": 0.9991,
+    "79 - Cross-Site Scripting": 0.6712,
+    "88 - OS Command Injection": 0.9982,
+    "918 - SSRF": 0.9598,
+    "94 - Code Injection": 0.9271
+  },
+  "time_fit_s": 660.9
+}

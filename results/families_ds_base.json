@@ -1,0 +1,478 @@
+{
+  "dataset": "ds_base",
+  "rows": 859293,
+  "unique_skeletons": 368250,
+  "random_split_test_rows_with_same_skeleton_in_train": 0.5977,
+  "thresholds": {
+    "0.5": {
+      "families": 2963,
+      "largest_family_rows": 542322,
+      "largest_family_share": 0.6311,
+      "singleton_families": 2409,
+      "rows_in_mixed_label_families": 852466,
+      "random_split_test_rows_with_family_in_train": 0.9971,
+      "per_class": [
+        {
+          "label": "Code Injection",
+          "rows": 15805,
+          "families": 58,
+          "largest": 15409,
+          "largest_share": 0.975
+        },
+        {
+          "label": "Dictionary-based Password Attack",
+          "rows": 1142,
+          "families": 25,
+          "largest": 1041,
+          "largest_share": 0.912
+        },
+        {
+          "label": "Fake the Source of Data",
+          "rows": 55983,
+          "families": 84,
+          "largest": 52636,
+          "largest_share": 0.94
+        },
+        {
+          "label": "HTTP Response Splitting",
+          "rows": 19668,
+          "families": 37,
+          "largest": 19335,
+          "largest_share": 0.983
+        },
+        {
+          "label": "HTTP Verb Tampering",
+          "rows": 4055,
+          "families": 112,
+          "largest": 3905,
+          "largest_share": 0.963
+        },
+        {
+          "label": "Input Data Manipulation",
+          "rows": 1387,
+          "families": 34,
+          "largest": 1154,
+          "largest_share": 0.832
+        },
+        {
+          "label": "Normal",
+          "rows": 476674,
+          "families": 503,
+          "largest": 298683,
+          "largest_share": 0.627
+        },
+        {
+          "label": "OS Command Injection",
+          "rows": 6150,
+          "families": 57,
+          "largest": 5600,
+          "largest_share": 0.911
+        },
+        {
+          "label": "Path Traversal",
+          "rows": 17762,
+          "families": 65,
+          "largest": 17500,
+          "largest_share": 0.985
+        },
+        {
+          "label": "Protocol Manipulation",
+          "rows": 9153,
+          "families": 204,
+          "largest": 8419,
+          "largest_share": 0.92
+        },
+        {
+          "label": "SQL Injection",
+          "rows": 249100,
+          "families": 940,
+          "largest": 241928,
+          "largest_share": 0.971
+        },
+        {
+          "label": "Scanning for Vulnerable Software",
+          "rows": 2414,
+          "families": 1107,
+          "largest": 456,
+          "largest_share": 0.189
+        }
+      ]
+    },
+    "0.6": {
+      "families": 5368,
+      "largest_family_rows": 518380,
+      "largest_family_share": 0.6033,
+      "singleton_families": 4477,
+      "rows_in_mixed_label_families": 847220,
+      "random_split_test_rows_with_family_in_train": 0.9947,
+      "per_class": [
+        {
+          "label": "Code Injection",
+          "rows": 15805,
+          "families": 144,
+          "largest": 13810,
+          "largest_share": 0.874
+        },
+        {
+          "label": "Dictionary-based Password Attack",
+          "rows": 1142,
+          "families": 44,
+          "largest": 969,
+          "largest_share": 0.849
+        },
+        {
+          "label": "Fake the Source of Data",
+          "rows": 55983,
+          "families": 242,
+          "largest": 51062,
+          "largest_share": 0.912
+        },
+        {
+          "label": "HTTP Response Splitting",
+          "rows": 19668,
+          "families": 79,
+          "largest": 18814,
+          "largest_share": 0.957
+        },
+        {
+          "label": "HTTP Verb Tampering",
+          "rows": 4055,
+          "families": 225,
+          "largest": 3733,
+          "largest_share": 0.921
+        },
+        {
+          "label": "Input Data Manipulation",
+          "rows": 1387,
+          "families": 86,
+          "largest": 963,
+          "largest_share": 0.694
+        },
+        {
+          "label": "Normal",
+          "rows": 476674,
+          "families": 1013,
+          "largest": 298671,
+          "largest_share": 0.627
+        },
+        {
+          "label": "OS Command Injection",
+          "rows": 6150,
+          "families": 158,
+          "largest": 4469,
+          "largest_share": 0.727
+        },
+        {
+          "label": "Path Traversal",
+          "rows": 17762,
+          "families": 128,
+          "largest": 16970,
+          "largest_share": 0.955
+        },
+        {
+          "label": "Protocol Manipulation",
+          "rows": 9153,
+          "families": 341,
+          "largest": 7340,
+          "largest_share": 0.802
+        },
+        {
+          "label": "SQL Injection",
+          "rows": 249100,
+          "families": 2027,
+          "largest": 234389,
+          "largest_share": 0.941
+        },
+        {
+          "label": "Scanning for Vulnerable Software",
+          "rows": 2414,
+          "families": 1328,
+          "largest": 160,
+          "largest_share": 0.066
+        }
+      ]
+    },
+    "0.7": {
+      "families": 12096,
+      "largest_family_rows": 467503,
+      "largest_family_share": 0.5441,
+      "singleton_families": 10119,
+      "rows_in_mixed_label_families": 818544,
+      "random_split_test_rows_with_family_in_train": 0.9874,
+      "per_class": [
+        {
+          "label": "Code Injection",
+          "rows": 15805,
+          "families": 409,
+          "largest": 12015,
+          "largest_share": 0.76
+        },
+        {
+          "label": "Dictionary-based Password Attack",
+          "rows": 1142,
+          "families": 82,
+          "largest": 945,
+          "largest_share": 0.827
+        },
+        {
+          "label": "Fake the Source of Data",
+          "rows": 55983,
+          "families": 902,
+          "largest": 46856,
+          "largest_share": 0.837
+        },
+        {
+          "label": "HTTP Response Splitting",
+          "rows": 19668,
+          "families": 339,
+          "largest": 15595,
+          "largest_share": 0.793
+        },
+        {
+          "label": "HTTP Verb Tampering",
+          "rows": 4055,
+          "families": 397,
+          "largest": 3533,
+          "largest_share": 0.871
+        },
+        {
+          "label": "Input Data Manipulation",
+          "rows": 1387,
+          "families": 217,
+          "largest": 549,
+          "largest_share": 0.396
+        },
+        {
+          "label": "Normal",
+          "rows": 476674,
+          "families": 2390,
+          "largest": 298671,
+          "largest_share": 0.627
+        },
+        {
+          "label": "OS Command Injection",
+          "rows": 6150,
+          "families": 455,
+          "largest": 3357,
+          "largest_share": 0.546
+        },
+        {
+          "label": "Path Traversal",
+          "rows": 17762,
+          "families": 257,
+          "largest": 15221,
+          "largest_share": 0.857
+        },
+        {
+          "label": "Protocol Manipulation",
+          "rows": 9153,
+          "families": 506,
+          "largest": 7001,
+          "largest_share": 0.765
+        },
+        {
+          "label": "SQL Injection",
+          "rows": 249100,
+          "families": 5320,
+          "largest": 209293,
+          "largest_share": 0.84
+        },
+        {
+          "label": "Scanning for Vulnerable Software",
+          "rows": 2414,
+          "families": 1586,
+          "largest": 67,
+          "largest_share": 0.028
+        }
+      ]
+    },
+    "0.8": {
+      "families": 70119,
+      "largest_family_rows": 298957,
+      "largest_family_share": 0.3479,
+      "singleton_families": 58968,
+      "rows_in_mixed_label_families": 656250,
+      "random_split_test_rows_with_family_in_train": 0.9281,
+      "per_class": [
+        {
+          "label": "Code Injection",
+          "rows": 15805,
+          "families": 3051,
+          "largest": 4211,
+          "largest_share": 0.266
+        },
+        {
+          "label": "Dictionary-based Password Attack",
+          "rows": 1142,
+          "families": 406,
+          "largest": 594,
+          "largest_share": 0.52
+        },
+        {
+          "label": "Fake the Source of Data",
+          "rows": 55983,
+          "families": 6167,
+          "largest": 19479,
+          "largest_share": 0.348
+        },
+        {
+          "label": "HTTP Response Splitting",
+          "rows": 19668,
+          "families": 4002,
+          "largest": 6258,
+          "largest_share": 0.318
+        },
+        {
+          "label": "HTTP Verb Tampering",
+          "rows": 4055,
+          "families": 850,
+          "largest": 1060,
+          "largest_share": 0.261
+        },
+        {
+          "label": "Input Data Manipulation",
+          "rows": 1387,
+          "families": 747,
+          "largest": 93,
+          "largest_share": 0.067
+        },
+        {
+          "label": "Normal",
+          "rows": 476674,
+          "families": 14431,
+          "largest": 298671,
+          "largest_share": 0.627
+        },
+        {
+          "label": "OS Command Injection",
+          "rows": 6150,
+          "families": 2325,
+          "largest": 301,
+          "largest_share": 0.049
+        },
+        {
+          "label": "Path Traversal",
+          "rows": 17762,
+          "families": 1052,
+          "largest": 3749,
+          "largest_share": 0.211
+        },
+        {
+          "label": "Protocol Manipulation",
+          "rows": 9153,
+          "families": 1822,
+          "largest": 1556,
+          "largest_share": 0.17
+        },
+        {
+          "label": "SQL Injection",
+          "rows": 249100,
+          "families": 36478,
+          "largest": 54535,
+          "largest_share": 0.219
+        },
+        {
+          "label": "Scanning for Vulnerable Software",
+          "rows": 2414,
+          "families": 1860,
+          "largest": 36,
+          "largest_share": 0.015
+        }
+      ]
+    },
+    "0.9": {
+      "families": 243832,
+      "largest_family_rows": 298956,
+      "largest_family_share": 0.3479,
+      "singleton_families": 207959,
+      "rows_in_mixed_label_families": 406412,
+      "random_split_test_rows_with_family_in_train": 0.7473,
+      "per_class": [
+        {
+          "label": "Code Injection",
+          "rows": 15805,
+          "families": 9539,
+          "largest": 246,
+          "largest_share": 0.016
+        },
+        {
+          "label": "Dictionary-based Password Attack",
+          "rows": 1142,
+          "families": 1004,
+          "largest": 35,
+          "largest_share": 0.031
+        },
+        {
+          "label": "Fake the Source of Data",
+          "rows": 55983,
+          "families": 19170,
+          "largest": 2512,
+          "largest_share": 0.045
+        },
+        {
+          "label": "HTTP Response Splitting",
+          "rows": 19668,
+          "families": 11693,
+          "largest": 468,
+          "largest_share": 0.024
+        },
+        {
+          "label": "HTTP Verb Tampering",
+          "rows": 4055,
+          "families": 1756,
+          "largest": 307,
+          "largest_share": 0.076
+        },
+        {
+          "label": "Input Data Manipulation",
+          "rows": 1387,
+          "families": 1061,
+          "largest": 79,
+          "largest_share": 0.057
+        },
+        {
+          "label": "Normal",
+          "rows": 476674,
+          "families": 47548,
+          "largest": 298671,
+          "largest_share": 0.627
+        },
+        {
+          "label": "OS Command Injection",
+          "rows": 6150,
+          "families": 4661,
+          "largest": 163,
+          "largest_share": 0.027
+        },
+        {
+          "label": "Path Traversal",
+          "rows": 17762,
+          "families": 3486,
+          "largest": 1287,
+          "largest_share": 0.072
+        },
+        {
+          "label": "Protocol Manipulation",
+          "rows": 9153,
+          "families": 4894,
+          "largest": 516,
+          "largest_share": 0.056
+        },
+        {
+          "label": "SQL Injection",
+          "rows": 249100,
+          "families": 143335,
+          "largest": 11031,
+          "largest_share": 0.044
+        },
+        {
+          "label": "Scanning for Vulnerable Software",
+          "rows": 2414,
+          "families": 2041,
+          "largest": 34,
+          "largest_share": 0.014
+        }
+      ]
+    }
+  }
+}

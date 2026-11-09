@@ -1,0 +1,43 @@
+{
+  "dataset": "ds_aug_v2",
+  "threshold": 0.8,
+  "n_clusters": 300,
+  "n_pairs": 22059,
+  "pair_jaccard_mean": 0.6290857508865225,
+  "pair_jaccard_median": 0.6567164179104478,
+  "pairs_below_threshold": 0.6795865633074936,
+  "pairs_below_0.5": 0.2844643909515391,
+  "cluster_min_jaccard_median": 0.6400966183574879,
+  "clusters_with_any_pair_below_threshold": 0.6833333333333333,
+  "clusters_min_below_0.5": 0.32666666666666666,
+  "by_size": [
+    {
+      "sz": "3-5",
+      "n": 153,
+      "min_med": 0.769,
+      "mean_med": 0.828,
+      "below": 0.432
+    },
+    {
+      "sz": "6-20",
+      "n": 92,
+      "min_med": 0.559,
+      "mean_med": 0.725,
+      "below": 0.561
+    },
+    {
+      "sz": "21-100",
+      "n": 31,
+      "min_med": 0.354,
+      "mean_med": 0.617,
+      "below": 0.752
+    },
+    {
+      "sz": ">100",
+      "n": 24,
+      "min_med": 0.341,
+      "mean_med": 0.608,
+      "below": 0.69
+    }
+  ]
+}

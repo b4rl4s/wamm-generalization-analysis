@@ -1,0 +1,90 @@
+{
+  "model": "ds_aug_v2_family_0.8_s2",
+  "dataset": "ds_aug_v2",
+  "split": "family_0.8",
+  "seed": 2,
+  "n_test": 140726,
+  "n_test_with_oastify": 2941,
+  "n_normal_test_with_oastify": 0,
+  "per_class": {
+    "126 - Path Traversal": {
+      "n_class_test": 3541,
+      "n_changed": 4,
+      "recall_before": 0.0,
+      "recall_after": 0.0,
+      "to_normal_after": 0.5,
+      "pred_after": {
+        "000 - Normal": 2,
+        "66 - SQL Injection": 1,
+        "94 - Code Injection": 1
+      }
+    },
+    "1336 - SSTI": {
+      "n_class_test": 379,
+      "n_changed": 176,
+      "recall_before": 0.8693181818181818,
+      "recall_after": 0.8693181818181818,
+      "to_normal_after": 0.0,
+      "pred_after": {
+        "1336 - SSTI": 153,
+        "79 - Cross-Site Scripting": 9,
+        "88 - OS Command Injection": 6,
+        "248 - Command Injection": 6,
+        "66 - SQL Injection": 2
+      }
+    },
+    "248 - Command Injection": {
+      "n_class_test": 447,
+      "n_changed": 2,
+      "recall_before": 0.0,
+      "recall_after": 0.0,
+      "to_normal_after": 0.0,
+      "pred_after": {
+        "1336 - SSTI": 1,
+        "79 - Cross-Site Scripting": 1
+      }
+    },
+    "66 - SQL Injection": {
+      "n_class_test": 29188,
+      "n_changed": 1403,
+      "recall_before": 0.940128296507484,
+      "recall_after": 0.9408410548823949,
+      "to_normal_after": 0.0,
+      "pred_after": {
+        "66 - SQL Injection": 1320,
+        "79 - Cross-Site Scripting": 42,
+        "88 - OS Command Injection": 40,
+        "1336 - SSTI": 1
+      }
+    },
+    "88 - OS Command Injection": {
+      "n_class_test": 7218,
+      "n_changed": 813,
+      "recall_before": 0.922509225092251,
+      "recall_after": 0.9188191881918819,
+      "to_normal_after": 0.01107011070110701,
+      "pred_after": {
+        "88 - OS Command Injection": 747,
+        "918 - SSRF": 37,
+        "66 - SQL Injection": 16,
+        "000 - Normal": 9,
+        "94 - Code Injection": 3,
+        "126 - Path Traversal": 1
+      }
+    },
+    "918 - SSRF": {
+      "n_class_test": 529,
+      "n_changed": 410,
+      "recall_before": 1.0,
+      "recall_after": 0.875609756097561,
+      "to_normal_after": 0.02195121951219512,
+      "pred_after": {
+        "918 - SSRF": 359,
+        "126 - Path Traversal": 37,
+        "000 - Normal": 9,
+        "66 - SQL Injection": 4,
+        "94 - Code Injection": 1
+      }
+    }
+  }
+}

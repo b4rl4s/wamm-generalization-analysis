@@ -1,0 +1,83 @@
+{
+  "model": "ds_aug_v2_family_0.8_s42",
+  "dataset": "ds_aug_v2",
+  "split": "family_0.8",
+  "seed": 42,
+  "n_test": 140705,
+  "n_test_with_oastify": 2748,
+  "n_normal_test_with_oastify": 0,
+  "per_class": {
+    "1336 - SSTI": {
+      "n_class_test": 379,
+      "n_changed": 65,
+      "recall_before": 0.9384615384615385,
+      "recall_after": 0.9384615384615385,
+      "to_normal_after": 0.0,
+      "pred_after": {
+        "1336 - SSTI": 61,
+        "918 - SSRF": 2,
+        "248 - Command Injection": 1,
+        "88 - OS Command Injection": 1
+      }
+    },
+    "248 - Command Injection": {
+      "n_class_test": 519,
+      "n_changed": 18,
+      "recall_before": 0.0,
+      "recall_after": 0.2222222222222222,
+      "to_normal_after": 0.0,
+      "pred_after": {
+        "1336 - SSTI": 13,
+        "248 - Command Injection": 4,
+        "79 - Cross-Site Scripting": 1
+      }
+    },
+    "66 - SQL Injection": {
+      "n_class_test": 29189,
+      "n_changed": 852,
+      "recall_before": 0.8110328638497653,
+      "recall_after": 0.812206572769953,
+      "to_normal_after": 0.0,
+      "pred_after": {
+        "66 - SQL Injection": 692,
+        "94 - Code Injection": 116,
+        "248 - Command Injection": 20,
+        "88 - OS Command Injection": 18,
+        "1336 - SSTI": 5,
+        "918 - SSRF": 1
+      }
+    },
+    "88 - OS Command Injection": {
+      "n_class_test": 7216,
+      "n_changed": 1125,
+      "recall_before": 0.744,
+      "recall_after": 0.7422222222222222,
+      "to_normal_after": 0.041777777777777775,
+      "pred_after": {
+        "88 - OS Command Injection": 835,
+        "918 - SSRF": 93,
+        "126 - Path Traversal": 77,
+        "000 - Normal": 47,
+        "248 - Command Injection": 31,
+        "66 - SQL Injection": 26,
+        "1336 - SSTI": 16
+      }
+    },
+    "918 - SSRF": {
+      "n_class_test": 529,
+      "n_changed": 423,
+      "recall_before": 0.6264775413711584,
+      "recall_after": 0.3120567375886525,
+      "to_normal_after": 0.03546099290780142,
+      "pred_after": {
+        "126 - Path Traversal": 225,
+        "918 - SSRF": 132,
+        "94 - Code Injection": 40,
+        "000 - Normal": 15,
+        "66 - SQL Injection": 9,
+        "248 - Command Injection": 1,
+        "1336 - SSTI": 1
+      }
+    }
+  }
+}

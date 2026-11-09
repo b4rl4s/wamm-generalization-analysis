@@ -1,0 +1,82 @@
+{
+  "model": "ds_aug_v2_random_s1",
+  "dataset": "ds_aug_v2",
+  "split": "random",
+  "seed": 1,
+  "n_test": 140933,
+  "n_test_with_oastify": 2358,
+  "n_normal_test_with_oastify": 0,
+  "per_class": {
+    "126 - Path Traversal": {
+      "n_class_test": 3544,
+      "n_changed": 2,
+      "recall_before": 1.0,
+      "recall_after": 1.0,
+      "to_normal_after": 0.0,
+      "pred_after": {
+        "126 - Path Traversal": 2
+      }
+    },
+    "1336 - SSTI": {
+      "n_class_test": 379,
+      "n_changed": 62,
+      "recall_before": 1.0,
+      "recall_after": 1.0,
+      "to_normal_after": 0.0,
+      "pred_after": {
+        "1336 - SSTI": 62
+      }
+    },
+    "248 - Command Injection": {
+      "n_class_test": 519,
+      "n_changed": 33,
+      "recall_before": 0.9696969696969697,
+      "recall_after": 0.06060606060606061,
+      "to_normal_after": 0.0,
+      "pred_after": {
+        "79 - Cross-Site Scripting": 24,
+        "1336 - SSTI": 7,
+        "248 - Command Injection": 2
+      }
+    },
+    "66 - SQL Injection": {
+      "n_class_test": 29217,
+      "n_changed": 455,
+      "recall_before": 0.9934065934065934,
+      "recall_after": 0.9978021978021978,
+      "to_normal_after": 0.0,
+      "pred_after": {
+        "66 - SQL Injection": 454,
+        "88 - OS Command Injection": 1
+      }
+    },
+    "88 - OS Command Injection": {
+      "n_class_test": 7223,
+      "n_changed": 1382,
+      "recall_before": 0.9949348769898697,
+      "recall_after": 0.9942112879884226,
+      "to_normal_after": 0.0,
+      "pred_after": {
+        "88 - OS Command Injection": 1374,
+        "918 - SSRF": 7,
+        "66 - SQL Injection": 1
+      }
+    },
+    "918 - SSRF": {
+      "n_class_test": 529,
+      "n_changed": 323,
+      "recall_before": 0.9907120743034056,
+      "recall_after": 0.9318885448916409,
+      "to_normal_after": 0.009287925696594427,
+      "pred_after": {
+        "918 - SSRF": 301,
+        "66 - SQL Injection": 8,
+        "94 - Code Injection": 5,
+        "000 - Normal": 3,
+        "88 - OS Command Injection": 3,
+        "126 - Path Traversal": 2,
+        "1336 - SSTI": 1
+      }
+    }
+  }
+}

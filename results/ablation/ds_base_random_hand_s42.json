@@ -1,0 +1,23 @@
+{
+  "dataset": "ds_base",
+  "split": "random",
+  "featureset": "hand",
+  "seed": 42,
+  "accuracy": 0.968,
+  "macro_f1": 0.8964,
+  "per_class_f1": {
+    "Code Injection": 0.9924,
+    "Dictionary-based Password Attack": 0.9454,
+    "Fake the Source of Data": 0.9781,
+    "HTTP Response Splitting": 0.9916,
+    "HTTP Verb Tampering": 0.7949,
+    "Input Data Manipulation": 0.8287,
+    "Normal": 0.9768,
+    "OS Command Injection": 0.785,
+    "Path Traversal": 0.9869,
+    "Protocol Manipulation": 0.5047,
+    "SQL Injection": 0.9861,
+    "Scanning for Vulnerable Software": 0.9855
+  },
+  "time_fit_s": 49.6
+}

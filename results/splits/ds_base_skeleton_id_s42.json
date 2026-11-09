@@ -1,0 +1,302 @@
+{
+  "dataset": "ds_base",
+  "split": "skeleton_id",
+  "seed": 42,
+  "n_train": 687597,
+  "n_test": 171696,
+  "test_fraction_per_class": {
+    "Code Injection": 0.2,
+    "Dictionary-based Password Attack": 0.2,
+    "Fake the Source of Data": 0.2,
+    "HTTP Response Splitting": 0.2,
+    "HTTP Verb Tampering": 0.2,
+    "Input Data Manipulation": 0.2,
+    "Normal": 0.2,
+    "OS Command Injection": 0.2,
+    "Path Traversal": 0.2,
+    "Protocol Manipulation": 0.2,
+    "SQL Injection": 0.2,
+    "Scanning for Vulnerable Software": 0.2
+  },
+  "test_rows_with_h_raw_in_train": 0.0095,
+  "test_rows_with_h_payload_in_train": 0.4471,
+  "test_rows_with_skeleton_id_in_train": 0.0,
+  "test_rows_with_family_0.8_in_train": 0.7288,
+  "accuracy": 0.9648,
+  "macro_f1": 0.9446,
+  "weighted_f1": 0.9681,
+  "per_class": {
+    "Code Injection": {
+      "precision": 0.969,
+      "recall": 0.9981,
+      "f1-score": 0.9833,
+      "support": 3158.0
+    },
+    "Dictionary-based Password Attack": {
+      "precision": 0.9458,
+      "recall": 0.9956,
+      "f1-score": 0.9701,
+      "support": 228.0
+    },
+    "Fake the Source of Data": {
+      "precision": 0.8943,
+      "recall": 0.987,
+      "f1-score": 0.9384,
+      "support": 11191.0
+    },
+    "HTTP Response Splitting": {
+      "precision": 0.9997,
+      "recall": 0.9997,
+      "f1-score": 0.9997,
+      "support": 3930.0
+    },
+    "HTTP Verb Tampering": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 811.0
+    },
+    "Input Data Manipulation": {
+      "precision": 0.9785,
+      "recall": 0.9856,
+      "f1-score": 0.982,
+      "support": 277.0
+    },
+    "Normal": {
+      "precision": 0.9968,
+      "recall": 0.9407,
+      "f1-score": 0.968,
+      "support": 95240.0
+    },
+    "OS Command Injection": {
+      "precision": 0.9637,
+      "recall": 0.9935,
+      "f1-score": 0.9784,
+      "support": 1229.0
+    },
+    "Path Traversal": {
+      "precision": 0.9952,
+      "recall": 0.9944,
+      "f1-score": 0.9948,
+      "support": 3550.0
+    },
+    "Protocol Manipulation": {
+      "precision": 0.3837,
+      "recall": 0.9552,
+      "f1-score": 0.5475,
+      "support": 1829.0
+    },
+    "SQL Injection": {
+      "precision": 0.9714,
+      "recall": 0.9973,
+      "f1-score": 0.9842,
+      "support": 49771.0
+    },
+    "Scanning for Vulnerable Software": {
+      "precision": 0.9796,
+      "recall": 0.9979,
+      "f1-score": 0.9887,
+      "support": 482.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      3152,
+      0,
+      1,
+      0,
+      0,
+      0,
+      5,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      227,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      21,
+      0,
+      11046,
+      0,
+      0,
+      0,
+      113,
+      0,
+      0,
+      11,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      3929,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      811,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      273,
+      1,
+      0,
+      0,
+      3,
+      0,
+      0
+    ],
+    [
+      80,
+      1,
+      1286,
+      0,
+      0,
+      0,
+      89593,
+      43,
+      16,
+      2770,
+      1451,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      0,
+      1,
+      2,
+      1221,
+      0,
+      1,
+      3,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      18,
+      0,
+      3530,
+      0,
+      0,
+      1
+    ],
+    [
+      0,
+      2,
+      17,
+      0,
+      0,
+      2,
+      49,
+      0,
+      0,
+      1747,
+      6,
+      6
+    ],
+    [
+      0,
+      10,
+      0,
+      0,
+      0,
+      3,
+      97,
+      2,
+      0,
+      21,
+      49635,
+      3
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      481
+    ]
+  ],
+  "classes": [
+    "Code Injection",
+    "Dictionary-based Password Attack",
+    "Fake the Source of Data",
+    "HTTP Response Splitting",
+    "HTTP Verb Tampering",
+    "Input Data Manipulation",
+    "Normal",
+    "OS Command Injection",
+    "Path Traversal",
+    "Protocol Manipulation",
+    "SQL Injection",
+    "Scanning for Vulnerable Software"
+  ],
+  "time_features_s": 69.6,
+  "time_fit_s": 770.0,
+  "xgb_params": {
+    "n_estimators": 300,
+    "max_depth": 8,
+    "learning_rate": 0.1,
+    "tree_method": "hist",
+    "subsample": 1.0,
+    "colsample_bytree": 1.0,
+    "n_jobs": 16
+  },
+  "assumptions": [
+    "TF-IDF: analyzer='char', ngram_range=(1,2), max_features=2000, lowercase=False, ham istek metni",
+    "Elle tasarlanmış özellikler ve regex imzaları URL-decode edilmiş, küçük harfe çevrilmiş metin üzerinde",
+    "Regex imzaları makalede listelenmediği için yaygın kalıplardan derlendi"
+  ]
+}

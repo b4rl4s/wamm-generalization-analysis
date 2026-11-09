@@ -1,0 +1,83 @@
+{
+  "model": "ds_aug_v2_random_s42",
+  "dataset": "ds_aug_v2",
+  "split": "random",
+  "seed": 42,
+  "n_test": 140933,
+  "n_test_with_oastify": 2353,
+  "n_normal_test_with_oastify": 0,
+  "per_class": {
+    "126 - Path Traversal": {
+      "n_class_test": 3544,
+      "n_changed": 5,
+      "recall_before": 1.0,
+      "recall_after": 1.0,
+      "to_normal_after": 0.0,
+      "pred_after": {
+        "126 - Path Traversal": 5
+      }
+    },
+    "1336 - SSTI": {
+      "n_class_test": 379,
+      "n_changed": 63,
+      "recall_before": 0.9841269841269841,
+      "recall_after": 0.9841269841269841,
+      "to_normal_after": 0.0,
+      "pred_after": {
+        "1336 - SSTI": 62,
+        "88 - OS Command Injection": 1
+      }
+    },
+    "248 - Command Injection": {
+      "n_class_test": 519,
+      "n_changed": 30,
+      "recall_before": 0.9666666666666667,
+      "recall_after": 0.03333333333333333,
+      "to_normal_after": 0.0,
+      "pred_after": {
+        "79 - Cross-Site Scripting": 23,
+        "1336 - SSTI": 6,
+        "248 - Command Injection": 1
+      }
+    },
+    "66 - SQL Injection": {
+      "n_class_test": 29217,
+      "n_changed": 462,
+      "recall_before": 0.9956709956709957,
+      "recall_after": 0.9956709956709957,
+      "to_normal_after": 0.0,
+      "pred_after": {
+        "66 - SQL Injection": 460,
+        "88 - OS Command Injection": 2
+      }
+    },
+    "88 - OS Command Injection": {
+      "n_class_test": 7223,
+      "n_changed": 1356,
+      "recall_before": 0.995575221238938,
+      "recall_after": 0.9963126843657817,
+      "to_normal_after": 0.0,
+      "pred_after": {
+        "88 - OS Command Injection": 1351,
+        "918 - SSRF": 3,
+        "66 - SQL Injection": 2
+      }
+    },
+    "918 - SSRF": {
+      "n_class_test": 529,
+      "n_changed": 344,
+      "recall_before": 0.9941860465116279,
+      "recall_after": 0.8691860465116279,
+      "to_normal_after": 0.005813953488372093,
+      "pred_after": {
+        "918 - SSRF": 299,
+        "126 - Path Traversal": 22,
+        "94 - Code Injection": 11,
+        "66 - SQL Injection": 4,
+        "79 - Cross-Site Scripting": 3,
+        "88 - OS Command Injection": 3,
+        "000 - Normal": 2
+      }
+    }
+  }
+}

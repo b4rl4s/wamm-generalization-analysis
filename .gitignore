@@ -1,0 +1,8 @@
+# Ham veri, önbellek ve eğitilmiş modeller (boyut nedeniyle depoda yok; bkz. README Ek C.2)
+data/
+models/
+logs/
+# Python
+.venv/
+__pycache__/
+*.pyc

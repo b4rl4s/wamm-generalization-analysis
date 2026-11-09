@@ -1,0 +1,2140 @@
+{
+  "model": "ds_base_family_0.8_s42",
+  "dataset": "ds_base",
+  "split": "family_0.8",
+  "n_global": 2400,
+  "global": {
+    "Code Injection": {
+      "n": 200,
+      "acc_on_sample": 1.0,
+      "group_share": {
+        "length_stats": 0.0030954552348703146,
+        "signatures_keywords": 0.017848610877990723,
+        "special_char_counts": 0.22887058556079865,
+        "tfidf_char_ngram": 0.7501853704452515
+      },
+      "top_features": [
+        {
+          "feature": "cnt_lt",
+          "group": "special_char_counts",
+          "mean_abs": 1.5991783142089844,
+          "mean_signed": 1.4318891763687134
+        },
+        {
+          "feature": "tfidf['2%']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 1.4819046258926392,
+          "mean_signed": 1.0737589597702026
+        },
+        {
+          "feature": "tfidf['r%']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 1.438662052154541,
+          "mean_signed": 1.3810163736343384
+        },
+        {
+          "feature": "cnt_dollar",
+          "group": "special_char_counts",
+          "mean_abs": 1.234955072402954,
+          "mean_signed": 1.1932156085968018
+        },
+        {
+          "feature": "tfidf['1%']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 1.184114933013916,
+          "mean_signed": 1.1060364246368408
+        },
+        {
+          "feature": "tfidf['7%']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 1.1140661239624023,
+          "mean_signed": 1.0179965496063232
+        },
+        {
+          "feature": "tfidf['4%']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 0.7937606573104858,
+          "mean_signed": 0.6747585535049438
+        },
+        {
+          "feature": "tfidf['81']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 0.3758451044559479,
+          "mean_signed": 0.2963845729827881
+        },
+        {
+          "feature": "cnt_lpar",
+          "group": "special_char_counts",
+          "mean_abs": 0.33209463953971863,
+          "mean_signed": 0.2720267176628113
+        },
+        {
+          "feature": "tfidf['3C']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 0.2510499656200409,
+          "mean_signed": 0.2055978924036026
+        },
+        {
+          "feature": "sig_rce",
+          "group": "signatures_keywords",
+          "mean_abs": 0.24892652034759521,
+          "mean_signed": 0.2485295683145523
+        },
+        {
+          "feature": "tfidf['/%']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 0.24567098915576935,
+          "mean_signed": 0.06522795557975769
+        },
+        {
+          "feature": "tfidf['=']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 0.2309744507074356,
+          "mean_signed": -0.05321575328707695
+        },
+        {
+          "feature": "cnt_plus",
+          "group": "special_char_counts",
+          "mean_abs": 0.22575338184833527,
+          "mean_signed": 0.18653447926044464
+        },
+        {
+          "feature": "cnt_brace_l",
+          "group": "special_char_counts",
+          "mean_abs": 0.18718737363815308,
+          "mean_signed": 0.16728849709033966
+        },
+        {
+          "feature": "tfidf['w.']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 0.16002026200294495,
+          "mean_signed": -0.05927686393260956
+        },
+        {
+          "feature": "tfidf['%']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 0.1457470804452896,
+          "mean_signed": 0.11902613937854767
+        },
+        {
+          "feature": "tfidf['D/']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 0.13654305040836334,
+          "mean_signed": 0.12321769446134567
+        },
+        {
+          "feature": "tfidf['W']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 0.13322293758392334,
+          "mean_signed": 0.10027908533811569
+        },
+        {
+          "feature": "tfidf['2']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 0.1286296248435974,
+          "mean_signed": 0.11135785281658173
+        }
+      ]
+    },
+    "Dictionary-based Password Attack": {
+      "n": 200,
+      "acc_on_sample": 0.995,
+      "group_share": {
+        "length_stats": 0.01171706710010767,
+        "signatures_keywords": 0.005031314678490162,
+        "special_char_counts": 0.007332232780754566,
+        "tfidf_char_ngram": 0.9759194254875183
+      },
+      "top_features": [
+        {
+          "feature": "tfidf[' l']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 3.0969271659851074,
+          "mean_signed": 3.0969271659851074
+        },
+        {
+          "feature": "tfidf['pw']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 3.090313196182251,
+          "mean_signed": 3.090313196182251
+        },
+        {
+          "feature": "tfidf['ge']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 0.2807639539241791,
+          "mean_signed": 0.20373766124248505
+        },
+        {
+          "feature": "tfidf['X']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 0.24165010452270508,
+          "mean_signed": 0.20038850605487823
+        },
+        {
+          "feature": "tfidf['ma']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 0.24014712870121002,
+          "mean_signed": 0.06439466774463654
+        },
+        {
+          "feature": "tfidf['+']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 0.22807832062244415,
+          "mean_signed": 0.10397739708423615
+        },
+        {
+          "feature": "tfidf['su']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 0.22147487103939056,
+          "mean_signed": 0.18459931015968323
+        },
+        {
+          "feature": "tfidf['p ']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 0.18403033912181854,
+          "mean_signed": 0.12464352697134018
+        },
+        {
+          "feature": "tfidf['C']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 0.16241644322872162,
+          "mean_signed": 0.007526799570769072
+        },
+        {
+          "feature": "tfidf['x']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 0.1585436761379242,
+          "mean_signed": -0.08399152010679245
+        },
+        {
+          "feature": "tfidf['d']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 0.15759754180908203,
+          "mean_signed": 0.09254179894924164
+        },
+        {
+          "feature": "tfidf['D']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 0.15346170961856842,
+          "mean_signed": 0.07484487444162369
+        },
+        {
+          "feature": "tfidf['mb']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 0.14922811090946198,
+          "mean_signed": -0.11187785863876343
+        },
+        {
+          "feature": "tfidf['p']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 0.14462342858314514,
+          "mean_signed": 0.09993858635425568
+        },
+        {
+          "feature": "tfidf['to']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 0.13710755109786987,
+          "mean_signed": -0.05821302533149719
+        },
+        {
+          "feature": "tfidf['ar']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 0.120197594165802,
+          "mean_signed": 0.050930608063936234
+        },
+        {
+          "feature": "tfidf['wd']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 0.11862096190452576,
+          "mean_signed": 0.11576137691736221
+        },
+        {
+          "feature": "tfidf['ss']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 0.10023368895053864,
+          "mean_signed": -0.05899934470653534
+        },
+        {
+          "feature": "tfidf['l']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 0.1001289114356041,
+          "mean_signed": 0.03925967589020729
+        },
+        {
+          "feature": "tfidf['a']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 0.09259097278118134,
+          "mean_signed": -0.018622158095240593
+        }
+      ]
+    },
+    "Fake the Source of Data": {
+      "n": 200,
+      "acc_on_sample": 0.995,
+      "group_share": {
+        "length_stats": 0.008225026540458202,
+        "signatures_keywords": 0.0,
+        "special_char_counts": 0.004228188656270504,
+        "tfidf_char_ngram": 0.9875468015670776
+      },
+      "top_features": [
+        {
+          "feature": "tfidf['.g']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 3.5968124866485596,
+          "mean_signed": 3.5235490798950195
+        },
+        {
+          "feature": "tfidf['gl']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 0.8823015093803406,
+          "mean_signed": 0.7830350995063782
+        },
+        {
+          "feature": "tfidf['iH']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 0.72127366065979,
+          "mean_signed": 0.7204140424728394
+        },
+        {
+          "feature": "tfidf['jl']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 0.44921809434890747,
+          "mean_signed": 0.4483722746372223
+        },
+        {
+          "feature": "tfidf['P%']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 0.29574161767959595,
+          "mean_signed": 0.2874508798122406
+        },
+        {
+          "feature": "tfidf['m%']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 0.28706204891204834,
+          "mean_signed": 0.27716782689094543
+        },
+        {
+          "feature": "tfidf['yp']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 0.282207727432251,
+          "mean_signed": 0.18924543261528015
+        },
+        {
+          "feature": "tfidf['%2']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 0.24902167916297913,
+          "mean_signed": 0.15063653886318207
+        },
+        {
+          "feature": "tfidf['m/']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 0.23716215789318085,
+          "mean_signed": -0.08028949052095413
+        },
+        {
+          "feature": "tfidf['2F']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 0.21045537292957306,
+          "mean_signed": 0.18880406022071838
+        },
+        {
+          "feature": "tfidf['rd']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 0.16112872958183289,
+          "mean_signed": 0.13919620215892792
+        },
+        {
+          "feature": "tfidf['qs']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 0.15948976576328278,
+          "mean_signed": 0.15850120782852173
+        },
+        {
+          "feature": "tfidf['Fw']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 0.14352920651435852,
+          "mean_signed": 0.1417219042778015
+        },
+        {
+          "feature": "tfidf['m ']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 0.10459398478269577,
+          "mean_signed": 0.09542123973369598
+        },
+        {
+          "feature": "tfidf['q%']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 0.10064835846424103,
+          "mean_signed": 0.10011989623308182
+        },
+        {
+          "feature": "tfidf['TI']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 0.09673025459051132,
+          "mean_signed": 0.06998340785503387
+        },
+        {
+          "feature": "tfidf['&']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 0.08885329961776733,
+          "mean_signed": 0.059110455214977264
+        },
+        {
+          "feature": "tfidf[' w']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 0.08290925621986389,
+          "mean_signed": 0.060484785586595535
+        },
+        {
+          "feature": "tfidf['/w']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 0.07903043925762177,
+          "mean_signed": -0.03628518804907799
+        },
+        {
+          "feature": "tfidf['io']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 0.0734952986240387,
+          "mean_signed": -0.039470285177230835
+        }
+      ]
+    },
+    "HTTP Response Splitting": {
+      "n": 200,
+      "acc_on_sample": 1.0,
+      "group_share": {
+        "length_stats": 0.011057629249989986,
+        "signatures_keywords": 0.0,
+        "special_char_counts": 0.0009269389556720853,
+        "tfidf_char_ngram": 0.988015353679657
+      },
+      "top_features": [
+        {
+          "feature": "tfidf['0A']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 7.513348579406738,
+          "mean_signed": 7.513348579406738
+        },
+        {
+          "feature": "tfidf['%0']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 0.9939106702804565,
+          "mean_signed": 0.9891911149024963
+        },
+        {
+          "feature": "tfidf['=']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 0.4742358922958374,
+          "mean_signed": 0.30429115891456604
+        },
+        {
+          "feature": "tfidf['A/']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 0.27023857831954956,
+          "mean_signed": 0.1960935741662979
+        },
+        {
+          "feature": "tfidf['+T']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 0.24955812096595764,
+          "mean_signed": 0.06634406000375748
+        },
+        {
+          "feature": "tfidf['A ']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 0.24355745315551758,
+          "mean_signed": 0.11000397801399231
+        },
+        {
+          "feature": "tfidf['es']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 0.14741268754005432,
+          "mean_signed": 0.08688186854124069
+        },
+        {
+          "feature": "tfidf['w']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 0.14736057817935944,
+          "mean_signed": 0.046609729528427124
+        },
+        {
+          "feature": "tfidf['-4']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 0.10511671006679535,
+          "mean_signed": 0.045631397515535355
+        },
+        {
+          "feature": "tfidf['b5']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 0.08329031616449356,
+          "mean_signed": 0.02975483424961567
+        },
+        {
+          "feature": "url_depth",
+          "group": "length_stats",
+          "mean_abs": 0.07220936566591263,
+          "mean_signed": 0.054586950689554214
+        },
+        {
+          "feature": "tfidf[' l']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 0.05550820007920265,
+          "mean_signed": 0.05550820007920265
+        },
+        {
+          "feature": "tfidf['mp']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 0.05359736084938049,
+          "mean_signed": 0.045837435871362686
+        },
+        {
+          "feature": "tfidf['AS']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 0.049480143934488297,
+          "mean_signed": 0.024351559579372406
+        },
+        {
+          "feature": "tfidf['3A']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 0.04678119719028473,
+          "mean_signed": 0.026666391640901566
+        },
+        {
+          "feature": "uri_len",
+          "group": "length_stats",
+          "mean_abs": 0.0459783710539341,
+          "mean_signed": 0.0363168828189373
+        },
+        {
+          "feature": "tfidf['d%']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 0.04223255813121796,
+          "mean_signed": 0.011814192868769169
+        },
+        {
+          "feature": "tfidf['?']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 0.04188411682844162,
+          "mean_signed": 0.03806052356958389
+        },
+        {
+          "feature": "tfidf['e.']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 0.041111383587121964,
+          "mean_signed": 0.02102028764784336
+        },
+        {
+          "feature": "tfidf['m\\n']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 0.040084417909383774,
+          "mean_signed": 0.031090661883354187
+        }
+      ]
+    },
+    "HTTP Verb Tampering": {
+      "n": 200,
+      "acc_on_sample": 0.99,
+      "group_share": {
+        "length_stats": 0.005514742340892553,
+        "signatures_keywords": 0.0,
+        "special_char_counts": 0.0,
+        "tfidf_char_ngram": 0.9944851398468018
+      },
+      "top_features": [
+        {
+          "feature": "tfidf['T ']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 7.047897815704346,
+          "mean_signed": 7.007106781005859
+        },
+        {
+          "feature": "tfidf['CK']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 0.8468880653381348,
+          "mean_signed": 0.4635016918182373
+        },
+        {
+          "feature": "tfidf['O']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 0.4330640435218811,
+          "mean_signed": 0.2411012500524521
+        },
+        {
+          "feature": "tfidf['TR']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 0.37321552634239197,
+          "mean_signed": 0.3651249408721924
+        },
+        {
+          "feature": "tfidf['R']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 0.294607549905777,
+          "mean_signed": 0.2555347681045532
+        },
+        {
+          "feature": "tfidf['ef']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 0.28605568408966064,
+          "mean_signed": 0.10586104542016983
+        },
+        {
+          "feature": "tfidf['0']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 0.2519235908985138,
+          "mean_signed": 0.23621295392513275
+        },
+        {
+          "feature": "tfidf['\"']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 0.21746358275413513,
+          "mean_signed": 0.16869260370731354
+        },
+        {
+          "feature": "tfidf['C']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 0.17311853170394897,
+          "mean_signed": 0.12752357125282288
+        },
+        {
+          "feature": "tfidf['\\nC']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 0.15401993691921234,
+          "mean_signed": 0.0011202289024367929
+        },
+        {
+          "feature": "tfidf['CE']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 0.1509259045124054,
+          "mean_signed": 0.06859168410301208
+        },
+        {
+          "feature": "tfidf['t-']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 0.138719379901886,
+          "mean_signed": -0.06352847069501877
+        },
+        {
+          "feature": "tfidf['86']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 0.1359822154045105,
+          "mean_signed": 0.06544429063796997
+        },
+        {
+          "feature": "tfidf['X']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 0.12073687463998795,
+          "mean_signed": 0.049474284052848816
+        },
+        {
+          "feature": "tfidf['=']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 0.1059291809797287,
+          "mean_signed": 0.0925489068031311
+        },
+        {
+          "feature": "tfidf['I']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 0.09314114600419998,
+          "mean_signed": 0.03009769693017006
+        },
+        {
+          "feature": "tfidf['3S']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 0.08677235245704651,
+          "mean_signed": 0.08491154760122299
+        },
+        {
+          "feature": "tfidf['t_']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 0.08260478079319,
+          "mean_signed": 0.0602291114628315
+        },
+        {
+          "feature": "tfidf['=h']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 0.07958228886127472,
+          "mean_signed": -0.0693778246641159
+        },
+        {
+          "feature": "tfidf['\\n']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 0.07622940838336945,
+          "mean_signed": -0.02150309830904007
+        }
+      ]
+    },
+    "Input Data Manipulation": {
+      "n": 200,
+      "acc_on_sample": 0.935,
+      "group_share": {
+        "length_stats": 0.004624415189027786,
+        "signatures_keywords": 0.0005380482762120664,
+        "special_char_counts": 0.015597281977534294,
+        "tfidf_char_ngram": 0.9792402982711792
+      },
+      "top_features": [
+        {
+          "feature": "tfidf['d ']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 2.0258266925811768,
+          "mean_signed": 1.4080435037612915
+        },
+        {
+          "feature": "tfidf['PO']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 1.9946801662445068,
+          "mean_signed": 1.6006495952606201
+        },
+        {
+          "feature": "tfidf['m%']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 0.9237129092216492,
+          "mean_signed": -0.46024802327156067
+        },
+        {
+          "feature": "tfidf['-T']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 0.8978587985038757,
+          "mean_signed": 0.7640756964683533
+        },
+        {
+          "feature": "tfidf['n/']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 0.8469609022140503,
+          "mean_signed": 0.6279330253601074
+        },
+        {
+          "feature": "tfidf['Ty']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 0.8064683675765991,
+          "mean_signed": 0.7402737140655518
+        },
+        {
+          "feature": "tfidf['OS']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 0.7938082814216614,
+          "mean_signed": 0.7938082814216614
+        },
+        {
+          "feature": "tfidf['=&']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 0.6624587178230286,
+          "mean_signed": 0.6097197532653809
+        },
+        {
+          "feature": "tfidf['ST']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 0.41826385259628296,
+          "mean_signed": 0.40134766697883606
+        },
+        {
+          "feature": "tfidf[' /']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 0.30202847719192505,
+          "mean_signed": 0.005371687933802605
+        },
+        {
+          "feature": "tfidf['Fm']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 0.30135098099708557,
+          "mean_signed": 0.2795895040035248
+        },
+        {
+          "feature": "tfidf['k ']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 0.23162536323070526,
+          "mean_signed": -0.20575638115406036
+        },
+        {
+          "feature": "tfidf['pa']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 0.20223261415958405,
+          "mean_signed": -0.0618305541574955
+        },
+        {
+          "feature": "cnt_space",
+          "group": "special_char_counts",
+          "mean_abs": 0.17965050041675568,
+          "mean_signed": 0.10911829024553299
+        },
+        {
+          "feature": "tfidf['od']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 0.16518646478652954,
+          "mean_signed": 0.12936800718307495
+        },
+        {
+          "feature": "tfidf['9%']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 0.14281554520130157,
+          "mean_signed": 0.13855163753032684
+        },
+        {
+          "feature": "tfidf[' ']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 0.14043307304382324,
+          "mean_signed": 0.0862361416220665
+        },
+        {
+          "feature": "tfidf['nc']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 0.1403089016675949,
+          "mean_signed": 0.13616128265857697
+        },
+        {
+          "feature": "tfidf['nt']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 0.09300035238265991,
+          "mean_signed": -0.07141683250665665
+        },
+        {
+          "feature": "tfidf['G']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 0.08471326529979706,
+          "mean_signed": 0.040998149663209915
+        }
+      ]
+    },
+    "Normal": {
+      "n": 200,
+      "acc_on_sample": 0.8,
+      "group_share": {
+        "length_stats": 0.020160166546702385,
+        "signatures_keywords": 0.004612697754055262,
+        "special_char_counts": 0.02541346102952957,
+        "tfidf_char_ngram": 0.9498136043548584
+      },
+      "top_features": [
+        {
+          "feature": "tfidf[' ']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 1.230850100517273,
+          "mean_signed": 0.01754157990217209
+        },
+        {
+          "feature": "tfidf[':7']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 0.2842957675457001,
+          "mean_signed": -0.23681190609931946
+        },
+        {
+          "feature": "tfidf['/ ']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 0.20362406969070435,
+          "mean_signed": 0.06548638641834259
+        },
+        {
+          "feature": "tfidf['1a']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 0.19511671364307404,
+          "mean_signed": 0.10394920408725739
+        },
+        {
+          "feature": "tfidf['ET']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 0.17825573682785034,
+          "mean_signed": 0.1315496563911438
+        },
+        {
+          "feature": "tfidf['%']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 0.1622055619955063,
+          "mean_signed": 0.09446392208337784
+        },
+        {
+          "feature": "tfidf['.3']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 0.14149309694766998,
+          "mean_signed": 0.11277291178703308
+        },
+        {
+          "feature": "tfidf['ow']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 0.13936033844947815,
+          "mean_signed": 0.13184669613838196
+        },
+        {
+          "feature": "tfidf['GE']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 0.12775160372257233,
+          "mean_signed": 0.10076462477445602
+        },
+        {
+          "feature": "tfidf['z']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 0.11470324546098709,
+          "mean_signed": 0.08742444217205048
+        },
+        {
+          "feature": "tfidf[';']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 0.09653444588184357,
+          "mean_signed": 0.045372072607278824
+        },
+        {
+          "feature": "tfidf['s ']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 0.09169939905405045,
+          "mean_signed": 0.07255928963422775
+        },
+        {
+          "feature": "tfidf['uT']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 0.09091446548700333,
+          "mean_signed": 0.07954137027263641
+        },
+        {
+          "feature": "tfidf['%2']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 0.08416856825351715,
+          "mean_signed": 0.05640556290745735
+        },
+        {
+          "feature": "tfidf['pz']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 0.07555782049894333,
+          "mean_signed": 0.07079974561929703
+        },
+        {
+          "feature": "tfidf['G']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 0.06473704427480698,
+          "mean_signed": 0.05291396751999855
+        },
+        {
+          "feature": "tfidf['p.']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 0.06339729577302933,
+          "mean_signed": 0.049114737659692764
+        },
+        {
+          "feature": "tfidf['W2']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 0.06314733624458313,
+          "mean_signed": 0.05951189994812012
+        },
+        {
+          "feature": "tfidf['.1']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 0.06174114719033241,
+          "mean_signed": 0.04800429940223694
+        },
+        {
+          "feature": "tfidf['p ']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 0.06071893870830536,
+          "mean_signed": -0.007100806105881929
+        }
+      ]
+    },
+    "OS Command Injection": {
+      "n": 200,
+      "acc_on_sample": 0.98,
+      "group_share": {
+        "length_stats": 0.017751198261976242,
+        "signatures_keywords": 0.16931214928627014,
+        "special_char_counts": 0.03351125493645668,
+        "tfidf_char_ngram": 0.7794253826141357
+      },
+      "top_features": [
+        {
+          "feature": "sig_cmdi",
+          "group": "signatures_keywords",
+          "mean_abs": 2.5789926052093506,
+          "mean_signed": 2.3498735427856445
+        },
+        {
+          "feature": "tfidf['c%']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 1.4533238410949707,
+          "mean_signed": 1.253128170967102
+        },
+        {
+          "feature": "tfidf['sw']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 0.5237281322479248,
+          "mean_signed": 0.4803868532180786
+        },
+        {
+          "feature": "tfidf['+1']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 0.4187827408313751,
+          "mean_signed": 0.19981008768081665
+        },
+        {
+          "feature": "tfidf['/?']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 0.4005509912967682,
+          "mean_signed": 0.19979414343833923
+        },
+        {
+          "feature": "cnt_brace_l",
+          "group": "special_char_counts",
+          "mean_abs": 0.38166308403015137,
+          "mean_signed": 0.16513094305992126
+        },
+        {
+          "feature": "tfidf['=']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 0.3543398678302765,
+          "mean_signed": 0.2837235927581787
+        },
+        {
+          "feature": "tfidf['sl']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 0.3497321605682373,
+          "mean_signed": 0.21014288067817688
+        },
+        {
+          "feature": "tfidf['CF']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 0.3295290470123291,
+          "mean_signed": 0.3105357587337494
+        },
+        {
+          "feature": "tfidf['=%']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 0.3199777901172638,
+          "mean_signed": 0.2422008067369461
+        },
+        {
+          "feature": "tfidf['s?']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 0.31625834107398987,
+          "mean_signed": 0.0866691842675209
+        },
+        {
+          "feature": "tfidf['wd']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 0.2934664487838745,
+          "mean_signed": 0.1914823353290558
+        },
+        {
+          "feature": "tfidf['p?']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 0.2684723436832428,
+          "mean_signed": 0.07889372110366821
+        },
+        {
+          "feature": "tfidf['?']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 0.19498278200626373,
+          "mean_signed": 0.03432421758770943
+        },
+        {
+          "feature": "tfidf['p%']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 0.1884416788816452,
+          "mean_signed": -0.02719123288989067
+        },
+        {
+          "feature": "tfidf['p+']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 0.18691112101078033,
+          "mean_signed": 0.15066316723823547
+        },
+        {
+          "feature": "uri_len",
+          "group": "length_stats",
+          "mean_abs": 0.17723417282104492,
+          "mean_signed": 0.10773378610610962
+        },
+        {
+          "feature": "tfidf['p/']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 0.16655851900577545,
+          "mean_signed": 0.09522324800491333
+        },
+        {
+          "feature": "tfidf['%2']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 0.14181646704673767,
+          "mean_signed": 0.11961385607719421
+        },
+        {
+          "feature": "tfidf['/ ']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 0.1368880718946457,
+          "mean_signed": 0.07330439239740372
+        }
+      ]
+    },
+    "Path Traversal": {
+      "n": 200,
+      "acc_on_sample": 0.995,
+      "group_share": {
+        "length_stats": 0.003223239444196224,
+        "signatures_keywords": 0.0,
+        "special_char_counts": 0.002794974483549595,
+        "tfidf_char_ngram": 0.9939818382263184
+      },
+      "top_features": [
+        {
+          "feature": "tfidf['..']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 7.234722137451172,
+          "mean_signed": 6.720104217529297
+        },
+        {
+          "feature": "tfidf['/.']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 2.779390573501587,
+          "mean_signed": 1.990746021270752
+        },
+        {
+          "feature": "tfidf['c%']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 0.2640186548233032,
+          "mean_signed": 0.1991124004125595
+        },
+        {
+          "feature": "tfidf['/%']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 0.201178640127182,
+          "mean_signed": 0.06781220436096191
+        },
+        {
+          "feature": "tfidf['ap']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 0.1993495374917984,
+          "mean_signed": 0.035064827650785446
+        },
+        {
+          "feature": "tfidf['gi']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 0.16527242958545685,
+          "mean_signed": -0.08943068236112595
+        },
+        {
+          "feature": "tfidf['e']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 0.1604987382888794,
+          "mean_signed": -0.14680612087249756
+        },
+        {
+          "feature": "tfidf['=']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 0.15605737268924713,
+          "mean_signed": 0.12996460497379303
+        },
+        {
+          "feature": "tfidf['d']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 0.14214295148849487,
+          "mean_signed": -0.11647453159093857
+        },
+        {
+          "feature": "tfidf['?']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 0.13749466836452484,
+          "mean_signed": 0.09829872101545334
+        },
+        {
+          "feature": "tfidf['70']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 0.1290358155965805,
+          "mean_signed": 0.10153047740459442
+        },
+        {
+          "feature": "tfidf['t-']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 0.12274093925952911,
+          "mean_signed": 0.05028281360864639
+        },
+        {
+          "feature": "tfidf['ex']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 0.11905764788389206,
+          "mean_signed": 0.06007607281208038
+        },
+        {
+          "feature": "tfidf['d ']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 0.11318598687648773,
+          "mean_signed": 0.01985112577676773
+        },
+        {
+          "feature": "tfidf['c.']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 0.11003021895885468,
+          "mean_signed": 0.09538114815950394
+        },
+        {
+          "feature": "tfidf['.c']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 0.10336630791425705,
+          "mean_signed": 0.0766436755657196
+        },
+        {
+          "feature": "tfidf['A']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 0.10223477333784103,
+          "mean_signed": 0.08734109252691269
+        },
+        {
+          "feature": "tfidf['it']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 0.09551579505205154,
+          "mean_signed": 0.03623552620410919
+        },
+        {
+          "feature": "tfidf['d=']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 0.09360136836767197,
+          "mean_signed": -0.09309165924787521
+        },
+        {
+          "feature": "tfidf['en']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 0.09289687126874924,
+          "mean_signed": 0.05102771893143654
+        }
+      ]
+    },
+    "Protocol Manipulation": {
+      "n": 200,
+      "acc_on_sample": 0.96,
+      "group_share": {
+        "length_stats": 0.02800939418375492,
+        "signatures_keywords": 0.001002864446491003,
+        "special_char_counts": 0.01831863261759281,
+        "tfidf_char_ngram": 0.9526691436767578
+      },
+      "top_features": [
+        {
+          "feature": "tfidf['ak']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 1.1609125137329102,
+          "mean_signed": 1.0961394309997559
+        },
+        {
+          "feature": "tfidf['%']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 0.9793596863746643,
+          "mean_signed": 0.9206292033195496
+        },
+        {
+          "feature": "tfidf['e.']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 0.2446725219488144,
+          "mean_signed": 0.2202191948890686
+        },
+        {
+          "feature": "tfidf['O']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 0.239385187625885,
+          "mean_signed": 0.15138046443462372
+        },
+        {
+          "feature": "tfidf['ET']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 0.22578932344913483,
+          "mean_signed": 0.17094171047210693
+        },
+        {
+          "feature": "tfidf['A']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 0.22216066718101501,
+          "mean_signed": -0.17051218450069427
+        },
+        {
+          "feature": "tfidf['k;']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 0.19087186455726624,
+          "mean_signed": -0.05665525421500206
+        },
+        {
+          "feature": "tfidf['k ']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 0.18100635707378387,
+          "mean_signed": 0.11256790906190872
+        },
+        {
+          "feature": "tfidf[' C']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 0.1796582192182541,
+          "mean_signed": 0.1587952822446823
+        },
+        {
+          "feature": "tfidf[':']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 0.1786935031414032,
+          "mean_signed": 0.1368822604417801
+        },
+        {
+          "feature": "tfidf['0\\n']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 0.17679519951343536,
+          "mean_signed": 0.15841813385486603
+        },
+        {
+          "feature": "tfidf['wy']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 0.16903071105480194,
+          "mean_signed": 0.1620894968509674
+        },
+        {
+          "feature": "tfidf['.s']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 0.12524831295013428,
+          "mean_signed": 0.09091151505708694
+        },
+        {
+          "feature": "tfidf['es']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 0.12473051249980927,
+          "mean_signed": 0.07944998890161514
+        },
+        {
+          "feature": "tfidf['om']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 0.12251008301973343,
+          "mean_signed": 0.10102193802595139
+        },
+        {
+          "feature": "tfidf['C6']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 0.12005390971899033,
+          "mean_signed": 0.0720793604850769
+        },
+        {
+          "feature": "tfidf['-s']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 0.11856405436992645,
+          "mean_signed": 0.09660281985998154
+        },
+        {
+          "feature": "url_depth",
+          "group": "length_stats",
+          "mean_abs": 0.1113111600279808,
+          "mean_signed": 0.056438934057950974
+        },
+        {
+          "feature": "tfidf['1\\n']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 0.11070027202367783,
+          "mean_signed": 0.08061280846595764
+        },
+        {
+          "feature": "tfidf['.l']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 0.10901392996311188,
+          "mean_signed": 0.08516842126846313
+        }
+      ]
+    },
+    "SQL Injection": {
+      "n": 200,
+      "acc_on_sample": 0.995,
+      "group_share": {
+        "length_stats": 0.007951472885906696,
+        "signatures_keywords": 0.2479398548603058,
+        "special_char_counts": 0.07715707272291183,
+        "tfidf_char_ngram": 0.6669514775276184
+      },
+      "top_features": [
+        {
+          "feature": "sig_sqli",
+          "group": "signatures_keywords",
+          "mean_abs": 2.6538119316101074,
+          "mean_signed": 2.415656089782715
+        },
+        {
+          "feature": "tfidf['--']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 1.485026240348816,
+          "mean_signed": 1.441746473312378
+        },
+        {
+          "feature": "sql_kw_count",
+          "group": "signatures_keywords",
+          "mean_abs": 0.43890148401260376,
+          "mean_signed": 0.41654345393180847
+        },
+        {
+          "feature": "cnt_sq",
+          "group": "special_char_counts",
+          "mean_abs": 0.42195063829421997,
+          "mean_signed": 0.3167375326156616
+        },
+        {
+          "feature": "tfidf['LL']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 0.41147732734680176,
+          "mean_signed": 0.36767739057540894
+        },
+        {
+          "feature": "tfidf['UL']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 0.38882020115852356,
+          "mean_signed": 0.3592531085014343
+        },
+        {
+          "feature": "tfidf['g%']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 0.3093211054801941,
+          "mean_signed": 0.26936471462249756
+        },
+        {
+          "feature": "tfidf['/%']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 0.257058322429657,
+          "mean_signed": 0.09271182119846344
+        },
+        {
+          "feature": "tfidf['+A']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 0.24984689056873322,
+          "mean_signed": 0.23414789140224457
+        },
+        {
+          "feature": "cnt_dq",
+          "group": "special_char_counts",
+          "mean_abs": 0.16790789365768433,
+          "mean_signed": 0.11690845340490341
+        },
+        {
+          "feature": "tfidf['r%']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 0.15763291716575623,
+          "mean_signed": 0.06531036645174026
+        },
+        {
+          "feature": "tfidf['0\\n']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 0.12693387269973755,
+          "mean_signed": -0.08781756460666656
+        },
+        {
+          "feature": "tfidf['WH']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 0.12548792362213135,
+          "mean_signed": 0.09247296303510666
+        },
+        {
+          "feature": "cnt_lpar",
+          "group": "special_char_counts",
+          "mean_abs": 0.1186518743634224,
+          "mean_signed": 0.10013052076101303
+        },
+        {
+          "feature": "cnt_rpar",
+          "group": "special_char_counts",
+          "mean_abs": 0.11765509843826294,
+          "mean_signed": 0.07532297074794769
+        },
+        {
+          "feature": "tfidf['29']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 0.11072894930839539,
+          "mean_signed": 0.09925301373004913
+        },
+        {
+          "feature": "tfidf['%3']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 0.11019663512706757,
+          "mean_signed": 0.042905405163764954
+        },
+        {
+          "feature": "tfidf['AN']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 0.10834196209907532,
+          "mean_signed": 0.09369432181119919
+        },
+        {
+          "feature": "tfidf['%0']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 0.10491322726011276,
+          "mean_signed": 0.10491322726011276
+        },
+        {
+          "feature": "tfidf['F']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 0.102830670773983,
+          "mean_signed": 0.051662374287843704
+        }
+      ]
+    },
+    "Scanning for Vulnerable Software": {
+      "n": 200,
+      "acc_on_sample": 1.0,
+      "group_share": {
+        "length_stats": 0.00828989315778017,
+        "signatures_keywords": 0.0,
+        "special_char_counts": 0.0006019101710990071,
+        "tfidf_char_ngram": 0.9911082983016968
+      },
+      "top_features": [
+        {
+          "feature": "tfidf['k5']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 4.758807182312012,
+          "mean_signed": 4.758807182312012
+        },
+        {
+          "feature": "tfidf['ne']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 1.2112507820129395,
+          "mean_signed": 1.2112507820129395
+        },
+        {
+          "feature": "tfidf['/ ']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 0.5230265259742737,
+          "mean_signed": 0.3891860842704773
+        },
+        {
+          "feature": "tfidf['-1']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 0.5127710103988647,
+          "mean_signed": 0.5127710103988647
+        },
+        {
+          "feature": "tfidf['ti']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 0.4701851010322571,
+          "mean_signed": 0.3876866400241852
+        },
+        {
+          "feature": "tfidf['/']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 0.43131810426712036,
+          "mean_signed": 0.38757002353668213
+        },
+        {
+          "feature": "tfidf['.']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 0.4296404719352722,
+          "mean_signed": 0.30963125824928284
+        },
+        {
+          "feature": "tfidf['.n']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 0.27947673201560974,
+          "mean_signed": 0.27947673201560974
+        },
+        {
+          "feature": "tfidf['.s']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 0.24465930461883545,
+          "mean_signed": 0.23515552282333374
+        },
+        {
+          "feature": "tfidf['w']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 0.2178025096654892,
+          "mean_signed": 0.12293735146522522
+        },
+        {
+          "feature": "tfidf['D']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 0.20487314462661743,
+          "mean_signed": 0.19807684421539307
+        },
+        {
+          "feature": "tfidf['d']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 0.20362335443496704,
+          "mean_signed": -0.02454463765025139
+        },
+        {
+          "feature": "tfidf['2']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 0.13432621955871582,
+          "mean_signed": -0.10419291257858276
+        },
+        {
+          "feature": "tfidf['p ']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 0.12779901921749115,
+          "mean_signed": 0.06536082923412323
+        },
+        {
+          "feature": "tfidf['m']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 0.12525004148483276,
+          "mean_signed": 0.09865257889032364
+        },
+        {
+          "feature": "tfidf['co']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 0.12356619536876678,
+          "mean_signed": 0.11536366492509842
+        },
+        {
+          "feature": "tfidf['e']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 0.11316653341054916,
+          "mean_signed": 0.08200696855783463
+        },
+        {
+          "feature": "tfidf['.o']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 0.10847631096839905,
+          "mean_signed": 0.09369836747646332
+        },
+        {
+          "feature": "tfidf['ta']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 0.08537240326404572,
+          "mean_signed": 0.08079753071069717
+        },
+        {
+          "feature": "tfidf['p']",
+          "group": "tfidf_char_ngram",
+          "mean_abs": 0.08514909446239471,
+          "mean_signed": 0.05252417176961899
+        }
+      ]
+    }
+  },
+  "group_share_all": {
+    "length_stats": 0.01080164167797193,
+    "signatures_keywords": 0.037190461681651264,
+    "special_char_counts": 0.034562711157680795,
+    "tfidf_char_ngram": 0.9174451778332393
+  },
+  "local": {
+    "case": {
+      "n_changed_correct_before": 236,
+      "n_flipped": 0,
+      "flipped_to_normal": 0
+    },
+    "whitespace": {
+      "n_changed_correct_before": 664,
+      "n_flipped": 23,
+      "flipped_to_normal": 13,
+      "n_explained": 23,
+      "true_class_logit_delta_by_group": {
+        "length_stats": -0.0637853667140007,
+        "signatures_keywords": -0.5410289168357849,
+        "special_char_counts": -0.03467126190662384,
+        "tfidf_char_ngram": -4.895453453063965
+      },
+      "top_lost_support": [
+        {
+          "feature": "tfidf['%0']",
+          "group": "tfidf_char_ngram",
+          "mean_delta": -2.336135149002075
+        },
+        {
+          "feature": "tfidf['+1']",
+          "group": "tfidf_char_ngram",
+          "mean_delta": -0.5776159167289734
+        },
+        {
+          "feature": "tfidf['p+']",
+          "group": "tfidf_char_ngram",
+          "mean_delta": -0.45372623205184937
+        },
+        {
+          "feature": "sql_kw_count",
+          "group": "signatures_keywords",
+          "mean_delta": -0.2609367072582245
+        },
+        {
+          "feature": "tfidf['g%']",
+          "group": "tfidf_char_ngram",
+          "mean_delta": -0.25978782773017883
+        },
+        {
+          "feature": "sig_sqli",
+          "group": "signatures_keywords",
+          "mean_delta": -0.21786801517009735
+        },
+        {
+          "feature": "tfidf['=']",
+          "group": "tfidf_char_ngram",
+          "mean_delta": -0.13227052986621857
+        },
+        {
+          "feature": "tfidf['c%']",
+          "group": "tfidf_char_ngram",
+          "mean_delta": -0.11051962524652481
+        },
+        {
+          "feature": "tfidf['r%']",
+          "group": "tfidf_char_ngram",
+          "mean_delta": -0.10429446399211884
+        },
+        {
+          "feature": "tfidf['=%']",
+          "group": "tfidf_char_ngram",
+          "mean_delta": -0.08583752065896988
+        },
+        {
+          "feature": "uri_len",
+          "group": "length_stats",
+          "mean_delta": -0.0642891451716423
+        },
+        {
+          "feature": "tfidf['1%']",
+          "group": "tfidf_char_ngram",
+          "mean_delta": -0.06393216550350189
+        },
+        {
+          "feature": "sig_cmdi",
+          "group": "signatures_keywords",
+          "mean_delta": -0.06163092330098152
+        },
+        {
+          "feature": "tfidf['p/']",
+          "group": "tfidf_char_ngram",
+          "mean_delta": -0.056559182703495026
+        },
+        {
+          "feature": "tfidf['/%']",
+          "group": "tfidf_char_ngram",
+          "mean_delta": -0.047569870948791504
+        }
+      ],
+      "flipped_by_class": {
+        "SQL Injection": 15,
+        "OS Command Injection": 6,
+        "Dictionary-based Password Attack": 2
+      }
+    },
+    "sql_comment": {
+      "n_changed_correct_before": 236,
+      "n_flipped": 0,
+      "flipped_to_normal": 0
+    },
+    "cmd_quote": {
+      "n_changed_correct_before": 228,
+      "n_flipped": 54,
+      "flipped_to_normal": 0,
+      "n_explained": 54,
+      "true_class_logit_delta_by_group": {
+        "length_stats": -0.03403640165925026,
+        "signatures_keywords": -4.185708522796631,
+        "special_char_counts": -0.1365569680929184,
+        "tfidf_char_ngram": -3.244434356689453
+      },
+      "top_lost_support": [
+        {
+          "feature": "sig_cmdi",
+          "group": "signatures_keywords",
+          "mean_delta": -3.9988811016082764
+        },
+        {
+          "feature": "tfidf['s%']",
+          "group": "tfidf_char_ngram",
+          "mean_delta": -1.5578755140304565
+        },
+        {
+          "feature": "tfidf['sl']",
+          "group": "tfidf_char_ngram",
+          "mean_delta": -1.065927267074585
+        },
+        {
+          "feature": "tfidf['d?']",
+          "group": "tfidf_char_ngram",
+          "mean_delta": -0.19113563001155853
+        },
+        {
+          "feature": "sql_kw_count",
+          "group": "signatures_keywords",
+          "mean_delta": -0.18336017429828644
+        },
+        {
+          "feature": "tfidf['=']",
+          "group": "tfidf_char_ngram",
+          "mean_delta": -0.13497015833854675
+        },
+        {
+          "feature": "tfidf['22']",
+          "group": "tfidf_char_ngram",
+          "mean_delta": -0.10853559523820877
+        },
+        {
+          "feature": "tfidf['+1']",
+          "group": "tfidf_char_ngram",
+          "mean_delta": -0.10327958315610886
+        },
+        {
+          "feature": "cnt_brace_l",
+          "group": "special_char_counts",
+          "mean_delta": -0.0991470143198967
+        },
+        {
+          "feature": "tfidf['c%']",
+          "group": "tfidf_char_ngram",
+          "mean_delta": -0.09906190633773804
+        },
+        {
+          "feature": "tfidf[' /']",
+          "group": "tfidf_char_ngram",
+          "mean_delta": -0.09070528298616409
+        },
+        {
+          "feature": "tfidf['p%']",
+          "group": "tfidf_char_ngram",
+          "mean_delta": -0.08851335942745209
+        },
+        {
+          "feature": "tfidf['s?']",
+          "group": "tfidf_char_ngram",
+          "mean_delta": -0.08587341010570526
+        },
+        {
+          "feature": "tfidf['sw']",
+          "group": "tfidf_char_ngram",
+          "mean_delta": -0.060582444071769714
+        },
+        {
+          "feature": "tfidf['1%']",
+          "group": "tfidf_char_ngram",
+          "mean_delta": -0.051953308284282684
+        }
+      ],
+      "flipped_by_class": {
+        "OS Command Injection": 54
+      }
+    },
+    "path_dot": {
+      "n_changed_correct_before": 252,
+      "n_flipped": 0,
+      "flipped_to_normal": 0
+    },
+    "encoding_norm": {
+      "n_changed_correct_before": 247,
+      "n_flipped": 5,
+      "flipped_to_normal": 1,
+      "n_explained": 5,
+      "true_class_logit_delta_by_group": {
+        "length_stats": -0.07483182847499847,
+        "signatures_keywords": 0.42540404200553894,
+        "special_char_counts": 0.3985578119754791,
+        "tfidf_char_ngram": -4.56430196762085
+      },
+      "top_lost_support": [
+        {
+          "feature": "tfidf['25']",
+          "group": "tfidf_char_ngram",
+          "mean_delta": -0.8027346730232239
+        },
+        {
+          "feature": "cnt_pct",
+          "group": "special_char_counts",
+          "mean_delta": -0.5028552412986755
+        },
+        {
+          "feature": "tfidf['3C']",
+          "group": "tfidf_char_ngram",
+          "mean_delta": -0.48589029908180237
+        },
+        {
+          "feature": "tfidf['%0']",
+          "group": "tfidf_char_ngram",
+          "mean_delta": -0.43626803159713745
+        },
+        {
+          "feature": "tfidf['2%']",
+          "group": "tfidf_char_ngram",
+          "mean_delta": -0.38463518023490906
+        },
+        {
+          "feature": "tfidf['/%']",
+          "group": "tfidf_char_ngram",
+          "mean_delta": -0.37848013639450073
+        },
+        {
+          "feature": "tfidf['T']",
+          "group": "tfidf_char_ngram",
+          "mean_delta": -0.3145943284034729
+        },
+        {
+          "feature": "tfidf['1%']",
+          "group": "tfidf_char_ngram",
+          "mean_delta": -0.2809418737888336
+        },
+        {
+          "feature": "tfidf['%2']",
+          "group": "tfidf_char_ngram",
+          "mean_delta": -0.19989986717700958
+        },
+        {
+          "feature": "tfidf['=']",
+          "group": "tfidf_char_ngram",
+          "mean_delta": -0.1885850578546524
+        },
+        {
+          "feature": "tfidf['B']",
+          "group": "tfidf_char_ngram",
+          "mean_delta": -0.17496466636657715
+        },
+        {
+          "feature": "tfidf['7%']",
+          "group": "tfidf_char_ngram",
+          "mean_delta": -0.1745835244655609
+        },
+        {
+          "feature": "tfidf[' t']",
+          "group": "tfidf_char_ngram",
+          "mean_delta": -0.13446420431137085
+        },
+        {
+          "feature": "tfidf['=%']",
+          "group": "tfidf_char_ngram",
+          "mean_delta": -0.0945834368467331
+        },
+        {
+          "feature": "tfidf['ri']",
+          "group": "tfidf_char_ngram",
+          "mean_delta": -0.08782747387886047
+        }
+      ],
+      "flipped_by_class": {
+        "SQL Injection": 3,
+        "Code Injection": 2
+      }
+    },
+    "combo": {
+      "n_changed_correct_before": 916,
+      "n_flipped": 111,
+      "flipped_to_normal": 23,
+      "n_explained": 111,
+      "true_class_logit_delta_by_group": {
+        "length_stats": -0.22082263231277466,
+        "signatures_keywords": -3.432816982269287,
+        "special_char_counts": -0.14818447828292847,
+        "tfidf_char_ngram": -5.90282678604126
+      },
+      "top_lost_support": [
+        {
+          "feature": "sig_cmdi",
+          "group": "signatures_keywords",
+          "mean_delta": -3.1718575954437256
+        },
+        {
+          "feature": "tfidf['+1']",
+          "group": "tfidf_char_ngram",
+          "mean_delta": -1.0758733749389648
+        },
+        {
+          "feature": "tfidf['sl']",
+          "group": "tfidf_char_ngram",
+          "mean_delta": -0.8446096181869507
+        },
+        {
+          "feature": "tfidf['s%']",
+          "group": "tfidf_char_ngram",
+          "mean_delta": -0.6694093346595764
+        },
+        {
+          "feature": "tfidf['p+']",
+          "group": "tfidf_char_ngram",
+          "mean_delta": -0.5652995705604553
+        },
+        {
+          "feature": "tfidf['%0']",
+          "group": "tfidf_char_ngram",
+          "mean_delta": -0.5191777348518372
+        },
+        {
+          "feature": "tfidf['c%']",
+          "group": "tfidf_char_ngram",
+          "mean_delta": -0.2871328890323639
+        },
+        {
+          "feature": "sql_kw_count",
+          "group": "signatures_keywords",
+          "mean_delta": -0.20878222584724426
+        },
+        {
+          "feature": "uri_len",
+          "group": "length_stats",
+          "mean_delta": -0.19305910170078278
+        },
+        {
+          "feature": "tfidf['p%']",
+          "group": "tfidf_char_ngram",
+          "mean_delta": -0.17308250069618225
+        },
+        {
+          "feature": "tfidf['=']",
+          "group": "tfidf_char_ngram",
+          "mean_delta": -0.15425267815589905
+        },
+        {
+          "feature": "tfidf['+']",
+          "group": "tfidf_char_ngram",
+          "mean_delta": -0.1400861293077469
+        },
+        {
+          "feature": "tfidf['p/']",
+          "group": "tfidf_char_ngram",
+          "mean_delta": -0.12058884650468826
+        },
+        {
+          "feature": "tfidf['/?']",
+          "group": "tfidf_char_ngram",
+          "mean_delta": -0.11184126883745193
+        },
+        {
+          "feature": "cnt_brace_l",
+          "group": "special_char_counts",
+          "mean_delta": -0.1091899424791336
+        }
+      ],
+      "flipped_by_class": {
+        "OS Command Injection": 94,
+        "SQL Injection": 15,
+        "Dictionary-based Password Attack": 2
+      }
+    }
+  },
+  "top_overall": [
+    {
+      "feature": "tfidf['0A']",
+      "group": "tfidf_char_ngram",
+      "mean_abs": 0.6273886786879643
+    },
+    {
+      "feature": "tfidf['..']",
+      "group": "tfidf_char_ngram",
+      "mean_abs": 0.6040531468142945
+    },
+    {
+      "feature": "tfidf['T ']",
+      "group": "tfidf_char_ngram",
+      "mean_abs": 0.596580074125086
+    },
+    {
+      "feature": "tfidf['k5']",
+      "group": "tfidf_char_ngram",
+      "mean_abs": 0.39656940016243425
+    },
+    {
+      "feature": "tfidf['.g']",
+      "group": "tfidf_char_ngram",
+      "mean_abs": 0.3056426835414072
+    },
+    {
+      "feature": "tfidf[' l']",
+      "group": "tfidf_char_ngram",
+      "mean_abs": 0.2679879785137018
+    },
+    {
+      "feature": "tfidf['pw']",
+      "group": "tfidf_char_ngram",
+      "mean_abs": 0.2580559420530335
+    },
+    {
+      "feature": "tfidf['/.']",
+      "group": "tfidf_char_ngram",
+      "mean_abs": 0.23410330501201315
+    },
+    {
+      "feature": "sig_sqli",
+      "group": "signatures_keywords",
+      "mean_abs": 0.22256044933965313
+    },
+    {
+      "feature": "sig_cmdi",
+      "group": "signatures_keywords",
+      "mean_abs": 0.21774289465975016
+    },
+    {
+      "feature": "tfidf['d ']",
+      "group": "tfidf_char_ngram",
+      "mean_abs": 0.19436987381504878
+    },
+    {
+      "feature": "tfidf['PO']",
+      "group": "tfidf_char_ngram",
+      "mean_abs": 0.16998543302202052
+    },
+    {
+      "feature": "tfidf['c%']",
+      "group": "tfidf_char_ngram",
+      "mean_abs": 0.14391690753473085
+    },
+    {
+      "feature": "tfidf['r%']",
+      "group": "tfidf_char_ngram",
+      "mean_abs": 0.1339195311666117
+    },
+    {
+      "feature": "cnt_lt",
+      "group": "special_char_counts",
+      "mean_abs": 0.13386918705373319
+    },
+    {
+      "feature": "tfidf['%']",
+      "group": "tfidf_char_ngram",
+      "mean_abs": 0.1279663193763554
+    },
+    {
+      "feature": "tfidf['2%']",
+      "group": "tfidf_char_ngram",
+      "mean_abs": 0.12599641531414818
+    },
+    {
+      "feature": "tfidf['=']",
+      "group": "tfidf_char_ngram",
+      "mean_abs": 0.12496360644581728
+    },
+    {
+      "feature": "tfidf['--']",
+      "group": "tfidf_char_ngram",
+      "mean_abs": 0.12461298439120583
+    },
+    {
+      "feature": "tfidf[' ']",
+      "group": "tfidf_char_ngram",
+      "mean_abs": 0.11777197945684748
+    },
+    {
+      "feature": "tfidf['1%']",
+      "group": "tfidf_char_ngram",
+      "mean_abs": 0.11267668785876594
+    },
+    {
+      "feature": "tfidf['%0']",
+      "group": "tfidf_char_ngram",
+      "mean_abs": 0.10370497227995656
+    },
+    {
+      "feature": "cnt_dollar",
+      "group": "special_char_counts",
+      "mean_abs": 0.10335803498264795
+    },
+    {
+      "feature": "tfidf['ne']",
+      "group": "tfidf_char_ngram",
+      "mean_abs": 0.10197821914249516
+    },
+    {
+      "feature": "tfidf['m%']",
+      "group": "tfidf_char_ngram",
+      "mean_abs": 0.10182137712763506
+    },
+    {
+      "feature": "tfidf['ak']",
+      "group": "tfidf_char_ngram",
+      "mean_abs": 0.0971121677866904
+    },
+    {
+      "feature": "tfidf['7%']",
+      "group": "tfidf_char_ngram",
+      "mean_abs": 0.09284326192300796
+    },
+    {
+      "feature": "tfidf['/ ']",
+      "group": "tfidf_char_ngram",
+      "mean_abs": 0.08353860781062394
+    },
+    {
+      "feature": "tfidf['n/']",
+      "group": "tfidf_char_ngram",
+      "mean_abs": 0.0817370978766121
+    },
+    {
+      "feature": "tfidf['-T']",
+      "group": "tfidf_char_ngram",
+      "mean_abs": 0.07767416841488739
+    }
+  ]
+}
